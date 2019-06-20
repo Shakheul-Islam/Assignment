@@ -1,0 +1,312 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+  <div class="container-fluid">
+    <div class="row">
+        <div class="col-12 col-lg-4 col-xl-2">
+            <!--Info Modal -->
+           
+            <div class="modal fade show" id="infomodal" data-keyboard="false" data-backdrop="static" style="display: none; padding-right: 17px;"  aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content border-info">
+                        <div class="modal-header bg-info">
+                            <h5 class="modal-title text-white">Your modal title here</h5>
+                            <button type="button" class="close text-white" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">×</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                           </div>
+                        <div class="modal-footer">
+                            <button id="btnyes" type="button" class="btn btn-danger" value="1" data-dismiss="modal">Yes</button>
+                            <button id="btnno" type="button" class="btn btn-danger" value="2" data-dismiss="modal">No</button>
+                        </div>
+                    </div>
+                </div>
+            </div><!--End Modal -->
+        </div>
+        </div>
+    </div>
+
+
+<div class="alert alert-success alert-dismissible" role="alert" id="myAlert" style="display:none;">
+            <button type="button" class="close" id="linkClose">×</button>
+            <div class="alert-icon">
+                <i class="fa fa-check"></i>
+            </div>
+            <div class="alert-message">
+                <span id="AlertMsg"></span>
+            </div>
+ </div>
+
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="card">
+                        <div class="card-header text-uppercase">Inputs Sizing Options</div>
+                        <div class="card-body">
+                            <div class="col-md-8 col-md-offset-2">
+                                <form>
+                                    <div class="form-group row">
+                                        <label for="txtPlanName" class="col-sm-2 col-form-label">Name : </label>
+                                        <div class="col-sm-10">
+                                            <input type="text" id="txtId" class="form-control" hidden />
+                                            <input type="text" id="txtPlanName" class="form-control" placeholder="Enter Email Address">
+
+                                        </div>
+                                        <div class="col-md-10 col-md-offset-2" id="ValidateDiv" style="display:none;">
+
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <div class="col-md-offset-2">
+                                            <button type="button" id="btnSave" class="btn btn-primary btn-square waves-effect waves-light m-1">Save</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="card">
+                        <div class="card-header text-uppercase">Inputs Sizing Options</div>
+                        <div class="card-body">
+                          <table class="table table-bordered table-hover table-striped" id="MarkupPlanDtTable">
+                                <thead>
+                                    <tr>
+                                        <th>Name</th>
+                                        <th>Action</th>
+                                    </tr>
+                                </thead>
+                             </table>
+                         </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+
+        @section Scripts {
+            @Scripts.Render("~/bundles/jqueryval")
+            <script>
+
+        $(document).ready(function () {
+
+            LoadMarkupPlan();
+
+        });
+
+
+        function showAlert(msg) {
+            $("#myAlert").show('fade');
+            $("#AlertMsg").text(msg);
+            $("#myAlert").css("display", "block");
+            setTimeout(function () {
+                $("#myAlert").hide('fade');
+            }, 3000);
+            return false;
+        }
+
+        function LoadMarkupPlan() {
+
+            $.ajax({
+                url: '/MarkupPlan/LoadPlan',
+                method: 'Get',
+                dataType: 'json',
+                success: function (data) {
+                    $('#MarkupPlanDtTable').dataTable({
+
+                        paging: true,
+                        sort: true,
+                        destroy: true,
+                        searching: true,
+                        data: data,
+                        columns: [
+
+                            { 'data': 'Name' },
+                            {
+                                "mData": null,
+                                "bSortable": false,
+                                "mRender": function (data, type, full) {
+                                    return '' +
+
+                                        "<a class='text-info pr-2' id='add' href='#' onclick='getplan(" + data['Id'] + ")'><i class='fa fa-edit'></i></a>" +
+
+                                        "<a class='text-info pr-2' data-toggle='modal' data-target='#modalPopup' href='#' onclick='Delete(" + data['Id'] + ")'><i class='fa fa-trash'></i></a>";
+                                }
+                            }
+                        ]
+                    });
+                }
+            });
+
+
+        }
+
+
+        $("#btnSave").click(function () {
+
+            var value = $("#txtPlanName").val();
+            console.log(value);
+            if (value == "") {
+
+                var msg = "Please Enter Name";
+                $("#ValidateDiv").text(msg);
+                $("#ValidateDiv").css("display", "block");
+                return false;
+            }
+            else{
+            var data = {
+                Id: $("#txtId").val(),
+                Name: $("#txtPlanName").val()
+            }
+
+
+            $.ajax({
+                url: '@Url.Action("Create", "MarkupPlan")',
+                //url: "/MarkupPlan/Create",
+                type: "POST",
+                contentType: "application/json;charset=utf-8",
+                dataType: "json",
+                data: JSON.stringify(data),
+                success: function (dat) {
+
+                    $("#txtId").val(""),
+                    $("#txtPlanName").val("");
+                    LoadMarkupPlan();
+                    showAlert(dat);
+
+                },
+                error: function () {
+
+                }
+
+            });
+
+
+        }
+
+        });
+
+
+
+
+        function getplan(id) {
+            var data = {
+                Id: id
+            }
+
+
+                $.ajax({
+                    url: '@Url.Action("Edit", "MarkupPlan")',
+                    //url: "/MarkupPlan/Create",
+                    type: "POST",
+                    contentType: "application/json;charset=utf-8",
+                    dataType: "json",
+                    data: JSON.stringify(data),
+                    success: function (dat) {
+                        alert(dat.Name);
+                        $("#txtId").val(dat.Id);
+                        $("#txtPlanName").val(dat.Name);
+
+
+
+                    },
+                    error: function () {
+
+                    }
+
+                });
+        }
+
+        function Delete(id) {
+
+            if (id != "") {
+                var data = {
+                    Id: id
+                }
+                $("#infomodal").modal("toggle");
+                $(".modal-body").html("<h4>Are Sure To Delete?</h4>");
+                console.log(id);
+                $("#btnyes").click(function () {
+
+                    $.ajax({
+                    url: "/MarkupPlan/Delete",
+                    type: "Post",
+                    contentType: "application/json;charset=utf-8",
+                    dataType: "json",
+                    data: JSON.stringify(data),
+
+                    success: function (dat) {
+
+                        $("#txtId").val(""),
+                        $("#txtPlanName").val("");
+                        LoadMarkupPlan();
+                        showAlert(dat.success);
+
+                    },
+                    error: function () {
+
+                    }
+
+                });
+
+                })
+                $("#btnno").click(function () {
+                    $("#infomodal").modal("dismiss");
+
+                })
+            }
+
+
+
+        }
+
+
+        $("#txtPlanName").keyup(function () {
+
+            var value = $("#txtPlanName").val();
+            console.log(value);
+            if (value == "") {
+
+                var msg = "Please Enter Name";
+                $("#ValidateDiv").text(msg);
+                $("#ValidateDiv").css("display", "block");
+                return false;
+            }
+            else {
+                $("#ValidateDiv").text("");
+                $("#ValidateDiv").css("display", "none");
+
+            }
+
+
+
+
+        });
+
+
+
+
+            </script>
+
+
+
+
+
+
+
+        }

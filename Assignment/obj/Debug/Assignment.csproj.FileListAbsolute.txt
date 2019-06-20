@@ -1,0 +1,713 @@
+H:\Assignment\Assignment\bin\ApplicationInsights.config
+H:\Assignment\Assignment\bin\roslyn\csc.exe
+H:\Assignment\Assignment\bin\roslyn\csc.exe.config
+H:\Assignment\Assignment\bin\roslyn\csc.rsp
+H:\Assignment\Assignment\bin\roslyn\csi.exe
+H:\Assignment\Assignment\bin\roslyn\csi.rsp
+H:\Assignment\Assignment\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+H:\Assignment\Assignment\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+H:\Assignment\Assignment\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+H:\Assignment\Assignment\bin\roslyn\Microsoft.CodeAnalysis.dll
+H:\Assignment\Assignment\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+H:\Assignment\Assignment\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+H:\Assignment\Assignment\bin\roslyn\Microsoft.CSharp.Core.targets
+H:\Assignment\Assignment\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+H:\Assignment\Assignment\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+H:\Assignment\Assignment\bin\roslyn\Microsoft.VisualBasic.Core.targets
+H:\Assignment\Assignment\bin\roslyn\System.AppContext.dll
+H:\Assignment\Assignment\bin\roslyn\System.Collections.Immutable.dll
+H:\Assignment\Assignment\bin\roslyn\System.Diagnostics.StackTrace.dll
+H:\Assignment\Assignment\bin\roslyn\System.IO.FileSystem.dll
+H:\Assignment\Assignment\bin\roslyn\System.IO.FileSystem.Primitives.dll
+H:\Assignment\Assignment\bin\roslyn\System.Reflection.Metadata.dll
+H:\Assignment\Assignment\bin\roslyn\vbc.exe
+H:\Assignment\Assignment\bin\roslyn\vbc.exe.config
+H:\Assignment\Assignment\bin\roslyn\vbc.rsp
+H:\Assignment\Assignment\bin\roslyn\VBCSCompiler.exe
+H:\Assignment\Assignment\bin\roslyn\VBCSCompiler.exe.config
+H:\Assignment\Assignment\bin\Assignment.dll.config
+H:\Assignment\Assignment\bin\Assignment.dll
+H:\Assignment\Assignment\bin\Assignment.pdb
+H:\Assignment\Assignment\bin\Antlr3.Runtime.dll
+H:\Assignment\Assignment\bin\EntityFramework.dll
+H:\Assignment\Assignment\bin\EntityFramework.SqlServer.dll
+H:\Assignment\Assignment\bin\Microsoft.AI.Agent.Intercept.dll
+H:\Assignment\Assignment\bin\Microsoft.AI.DependencyCollector.dll
+H:\Assignment\Assignment\bin\Microsoft.AI.PerfCounterCollector.dll
+H:\Assignment\Assignment\bin\Microsoft.AI.ServerTelemetryChannel.dll
+H:\Assignment\Assignment\bin\Microsoft.AI.Web.dll
+H:\Assignment\Assignment\bin\Microsoft.AI.WindowsServer.dll
+H:\Assignment\Assignment\bin\Microsoft.ApplicationInsights.dll
+H:\Assignment\Assignment\bin\Microsoft.AspNet.Identity.Core.dll
+H:\Assignment\Assignment\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+H:\Assignment\Assignment\bin\Microsoft.AspNet.Identity.Owin.dll
+H:\Assignment\Assignment\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+H:\Assignment\Assignment\bin\Microsoft.Owin.dll
+H:\Assignment\Assignment\bin\Microsoft.Owin.Host.SystemWeb.dll
+H:\Assignment\Assignment\bin\Microsoft.Owin.Security.Cookies.dll
+H:\Assignment\Assignment\bin\Microsoft.Owin.Security.dll
+H:\Assignment\Assignment\bin\Microsoft.Owin.Security.Facebook.dll
+H:\Assignment\Assignment\bin\Microsoft.Owin.Security.Google.dll
+H:\Assignment\Assignment\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+H:\Assignment\Assignment\bin\Microsoft.Owin.Security.OAuth.dll
+H:\Assignment\Assignment\bin\Microsoft.Owin.Security.Twitter.dll
+H:\Assignment\Assignment\bin\Microsoft.Web.Infrastructure.dll
+H:\Assignment\Assignment\bin\Newtonsoft.Json.dll
+H:\Assignment\Assignment\bin\Owin.dll
+H:\Assignment\Assignment\bin\System.Web.Helpers.dll
+H:\Assignment\Assignment\bin\System.Web.Mvc.dll
+H:\Assignment\Assignment\bin\System.Web.Optimization.dll
+H:\Assignment\Assignment\bin\System.Web.Razor.dll
+H:\Assignment\Assignment\bin\System.Web.WebPages.Deployment.dll
+H:\Assignment\Assignment\bin\System.Web.WebPages.dll
+H:\Assignment\Assignment\bin\System.Web.WebPages.Razor.dll
+H:\Assignment\Assignment\bin\WebGrease.dll
+H:\Assignment\Assignment\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+H:\Assignment\Assignment\bin\System.Web.Helpers.xml
+H:\Assignment\Assignment\bin\System.Web.Mvc.xml
+H:\Assignment\Assignment\bin\System.Web.Optimization.xml
+H:\Assignment\Assignment\bin\System.Web.Razor.xml
+H:\Assignment\Assignment\bin\System.Web.WebPages.xml
+H:\Assignment\Assignment\bin\System.Web.WebPages.Deployment.xml
+H:\Assignment\Assignment\bin\System.Web.WebPages.Razor.xml
+H:\Assignment\Assignment\bin\Antlr3.Runtime.pdb
+H:\Assignment\Assignment\bin\Newtonsoft.Json.xml
+H:\Assignment\Assignment\bin\EntityFramework.xml
+H:\Assignment\Assignment\bin\EntityFramework.SqlServer.xml
+H:\Assignment\Assignment\bin\Microsoft.AspNet.Identity.Core.xml
+H:\Assignment\Assignment\bin\Microsoft.AspNet.Identity.Owin.xml
+H:\Assignment\Assignment\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+H:\Assignment\Assignment\bin\Microsoft.Owin.xml
+H:\Assignment\Assignment\bin\Microsoft.Owin.Host.SystemWeb.xml
+H:\Assignment\Assignment\bin\Microsoft.Owin.Security.xml
+H:\Assignment\Assignment\bin\Microsoft.Owin.Security.Facebook.xml
+H:\Assignment\Assignment\bin\Microsoft.Owin.Security.Cookies.xml
+H:\Assignment\Assignment\bin\Microsoft.Owin.Security.OAuth.xml
+H:\Assignment\Assignment\bin\Microsoft.Owin.Security.Google.xml
+H:\Assignment\Assignment\bin\Microsoft.Owin.Security.Twitter.xml
+H:\Assignment\Assignment\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+H:\Assignment\Assignment\bin\Microsoft.ApplicationInsights.xml
+H:\Assignment\Assignment\bin\Microsoft.AI.DependencyCollector.xml
+H:\Assignment\Assignment\bin\Microsoft.AI.ServerTelemetryChannel.xml
+H:\Assignment\Assignment\bin\Microsoft.AI.WindowsServer.xml
+H:\Assignment\Assignment\bin\Microsoft.AI.Web.xml
+H:\Assignment\Assignment\obj\Debug\Assignment.dll
+H:\Assignment\Assignment\obj\Debug\Assignment.pdb
+C:\Users\User\Desktop\assignment\Assignment\bin\ApplicationInsights.config
+C:\Users\User\Desktop\assignment\Assignment\bin\roslyn\csc.exe
+C:\Users\User\Desktop\assignment\Assignment\bin\roslyn\csc.exe.config
+C:\Users\User\Desktop\assignment\Assignment\bin\roslyn\csc.rsp
+C:\Users\User\Desktop\assignment\Assignment\bin\roslyn\csi.exe
+C:\Users\User\Desktop\assignment\Assignment\bin\roslyn\csi.rsp
+C:\Users\User\Desktop\assignment\Assignment\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\User\Desktop\assignment\Assignment\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\User\Desktop\assignment\Assignment\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\User\Desktop\assignment\Assignment\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\User\Desktop\assignment\Assignment\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\User\Desktop\assignment\Assignment\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\User\Desktop\assignment\Assignment\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\User\Desktop\assignment\Assignment\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\User\Desktop\assignment\Assignment\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\User\Desktop\assignment\Assignment\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\User\Desktop\assignment\Assignment\bin\roslyn\System.AppContext.dll
+C:\Users\User\Desktop\assignment\Assignment\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\User\Desktop\assignment\Assignment\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\User\Desktop\assignment\Assignment\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\User\Desktop\assignment\Assignment\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\User\Desktop\assignment\Assignment\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\User\Desktop\assignment\Assignment\bin\roslyn\vbc.exe
+C:\Users\User\Desktop\assignment\Assignment\bin\roslyn\vbc.exe.config
+C:\Users\User\Desktop\assignment\Assignment\bin\roslyn\vbc.rsp
+C:\Users\User\Desktop\assignment\Assignment\bin\roslyn\VBCSCompiler.exe
+C:\Users\User\Desktop\assignment\Assignment\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\User\Desktop\assignment\Assignment\bin\Assignment.dll.config
+C:\Users\User\Desktop\assignment\Assignment\bin\Assignment.dll
+C:\Users\User\Desktop\assignment\Assignment\bin\Assignment.pdb
+C:\Users\User\Desktop\assignment\Assignment\bin\Antlr3.Runtime.dll
+C:\Users\User\Desktop\assignment\Assignment\bin\Core.dll
+C:\Users\User\Desktop\assignment\Assignment\bin\Domain.dll
+C:\Users\User\Desktop\assignment\Assignment\bin\EntityFramework.dll
+C:\Users\User\Desktop\assignment\Assignment\bin\EntityFramework.SqlServer.dll
+C:\Users\User\Desktop\assignment\Assignment\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\User\Desktop\assignment\Assignment\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\User\Desktop\assignment\Assignment\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\User\Desktop\assignment\Assignment\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\User\Desktop\assignment\Assignment\bin\Microsoft.AI.Web.dll
+C:\Users\User\Desktop\assignment\Assignment\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\User\Desktop\assignment\Assignment\bin\Microsoft.ApplicationInsights.dll
+C:\Users\User\Desktop\assignment\Assignment\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\User\Desktop\assignment\Assignment\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\User\Desktop\assignment\Assignment\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\User\Desktop\assignment\Assignment\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\User\Desktop\assignment\Assignment\bin\Microsoft.Owin.dll
+C:\Users\User\Desktop\assignment\Assignment\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\User\Desktop\assignment\Assignment\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\User\Desktop\assignment\Assignment\bin\Microsoft.Owin.Security.dll
+C:\Users\User\Desktop\assignment\Assignment\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\User\Desktop\assignment\Assignment\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\User\Desktop\assignment\Assignment\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\User\Desktop\assignment\Assignment\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\User\Desktop\assignment\Assignment\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\User\Desktop\assignment\Assignment\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\User\Desktop\assignment\Assignment\bin\Newtonsoft.Json.dll
+C:\Users\User\Desktop\assignment\Assignment\bin\Owin.dll
+C:\Users\User\Desktop\assignment\Assignment\bin\System.Web.Helpers.dll
+C:\Users\User\Desktop\assignment\Assignment\bin\System.Web.Mvc.dll
+C:\Users\User\Desktop\assignment\Assignment\bin\System.Web.Optimization.dll
+C:\Users\User\Desktop\assignment\Assignment\bin\System.Web.Razor.dll
+C:\Users\User\Desktop\assignment\Assignment\bin\System.Web.WebPages.Deployment.dll
+C:\Users\User\Desktop\assignment\Assignment\bin\System.Web.WebPages.dll
+C:\Users\User\Desktop\assignment\Assignment\bin\System.Web.WebPages.Razor.dll
+C:\Users\User\Desktop\assignment\Assignment\bin\WebGrease.dll
+C:\Users\User\Desktop\assignment\Assignment\bin\Core.pdb
+C:\Users\User\Desktop\assignment\Assignment\bin\Core.dll.config
+C:\Users\User\Desktop\assignment\Assignment\bin\Domain.pdb
+C:\Users\User\Desktop\assignment\Assignment\bin\Domain.dll.config
+C:\Users\User\Desktop\assignment\Assignment\bin\EntityFramework.xml
+C:\Users\User\Desktop\assignment\Assignment\bin\EntityFramework.SqlServer.xml
+C:\Users\User\Desktop\assignment\Assignment\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\User\Desktop\assignment\Assignment\bin\System.Web.Helpers.xml
+C:\Users\User\Desktop\assignment\Assignment\bin\System.Web.Mvc.xml
+C:\Users\User\Desktop\assignment\Assignment\bin\System.Web.Optimization.xml
+C:\Users\User\Desktop\assignment\Assignment\bin\System.Web.Razor.xml
+C:\Users\User\Desktop\assignment\Assignment\bin\System.Web.WebPages.xml
+C:\Users\User\Desktop\assignment\Assignment\bin\System.Web.WebPages.Deployment.xml
+C:\Users\User\Desktop\assignment\Assignment\bin\System.Web.WebPages.Razor.xml
+C:\Users\User\Desktop\assignment\Assignment\bin\Antlr3.Runtime.pdb
+C:\Users\User\Desktop\assignment\Assignment\bin\Newtonsoft.Json.xml
+C:\Users\User\Desktop\assignment\Assignment\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\User\Desktop\assignment\Assignment\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\User\Desktop\assignment\Assignment\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\User\Desktop\assignment\Assignment\bin\Microsoft.Owin.xml
+C:\Users\User\Desktop\assignment\Assignment\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\User\Desktop\assignment\Assignment\bin\Microsoft.Owin.Security.xml
+C:\Users\User\Desktop\assignment\Assignment\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\User\Desktop\assignment\Assignment\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\User\Desktop\assignment\Assignment\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\User\Desktop\assignment\Assignment\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\User\Desktop\assignment\Assignment\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\User\Desktop\assignment\Assignment\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\User\Desktop\assignment\Assignment\bin\Microsoft.ApplicationInsights.xml
+C:\Users\User\Desktop\assignment\Assignment\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\User\Desktop\assignment\Assignment\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\User\Desktop\assignment\Assignment\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\User\Desktop\assignment\Assignment\bin\Microsoft.AI.Web.xml
+C:\Users\User\Desktop\assignment\Assignment\obj\Debug\Assignment.csprojAssemblyReference.cache
+C:\Users\User\Desktop\assignment\Assignment\obj\Debug\Assignment.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\assignment\Assignment\obj\Debug\Assignment.csproj.CopyComplete
+C:\Users\User\Desktop\assignment\Assignment\obj\Debug\Assignment.dll
+C:\Users\User\Desktop\assignment\Assignment\obj\Debug\Assignment.pdb
+C:\Users\netsh\Desktop\18.06.2019 Update\assignment\Assignment\bin\ApplicationInsights.config
+C:\Users\netsh\Desktop\18.06.2019 Update\assignment\Assignment\bin\roslyn\csc.exe
+C:\Users\netsh\Desktop\18.06.2019 Update\assignment\Assignment\bin\roslyn\csc.exe.config
+C:\Users\netsh\Desktop\18.06.2019 Update\assignment\Assignment\bin\roslyn\csc.rsp
+C:\Users\netsh\Desktop\18.06.2019 Update\assignment\Assignment\bin\roslyn\csi.exe
+C:\Users\netsh\Desktop\18.06.2019 Update\assignment\Assignment\bin\roslyn\csi.rsp
+C:\Users\netsh\Desktop\18.06.2019 Update\assignment\Assignment\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\netsh\Desktop\18.06.2019 Update\assignment\Assignment\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\netsh\Desktop\18.06.2019 Update\assignment\Assignment\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\netsh\Desktop\18.06.2019 Update\assignment\Assignment\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\netsh\Desktop\18.06.2019 Update\assignment\Assignment\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\netsh\Desktop\18.06.2019 Update\assignment\Assignment\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\netsh\Desktop\18.06.2019 Update\assignment\Assignment\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\netsh\Desktop\18.06.2019 Update\assignment\Assignment\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\netsh\Desktop\18.06.2019 Update\assignment\Assignment\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\netsh\Desktop\18.06.2019 Update\assignment\Assignment\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\netsh\Desktop\18.06.2019 Update\assignment\Assignment\bin\roslyn\System.AppContext.dll
+C:\Users\netsh\Desktop\18.06.2019 Update\assignment\Assignment\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\netsh\Desktop\18.06.2019 Update\assignment\Assignment\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\netsh\Desktop\18.06.2019 Update\assignment\Assignment\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\netsh\Desktop\18.06.2019 Update\assignment\Assignment\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\netsh\Desktop\18.06.2019 Update\assignment\Assignment\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\netsh\Desktop\18.06.2019 Update\assignment\Assignment\bin\roslyn\vbc.exe
+C:\Users\netsh\Desktop\18.06.2019 Update\assignment\Assignment\bin\roslyn\vbc.exe.config
+C:\Users\netsh\Desktop\18.06.2019 Update\assignment\Assignment\bin\roslyn\vbc.rsp
+C:\Users\netsh\Desktop\18.06.2019 Update\assignment\Assignment\bin\roslyn\VBCSCompiler.exe
+C:\Users\netsh\Desktop\18.06.2019 Update\assignment\Assignment\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\netsh\Desktop\18.06.2019 Update\assignment\Assignment\bin\Assignment.dll.config
+C:\Users\netsh\Desktop\18.06.2019 Update\assignment\Assignment\bin\Assignment.dll
+C:\Users\netsh\Desktop\18.06.2019 Update\assignment\Assignment\bin\Assignment.pdb
+C:\Users\netsh\Desktop\18.06.2019 Update\assignment\Assignment\bin\Antlr3.Runtime.dll
+C:\Users\netsh\Desktop\18.06.2019 Update\assignment\Assignment\bin\Core.dll
+C:\Users\netsh\Desktop\18.06.2019 Update\assignment\Assignment\bin\Domain.dll
+C:\Users\netsh\Desktop\18.06.2019 Update\assignment\Assignment\bin\EntityFramework.dll
+C:\Users\netsh\Desktop\18.06.2019 Update\assignment\Assignment\bin\EntityFramework.SqlServer.dll
+C:\Users\netsh\Desktop\18.06.2019 Update\assignment\Assignment\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\netsh\Desktop\18.06.2019 Update\assignment\Assignment\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\netsh\Desktop\18.06.2019 Update\assignment\Assignment\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\netsh\Desktop\18.06.2019 Update\assignment\Assignment\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\netsh\Desktop\18.06.2019 Update\assignment\Assignment\bin\Microsoft.AI.Web.dll
+C:\Users\netsh\Desktop\18.06.2019 Update\assignment\Assignment\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\netsh\Desktop\18.06.2019 Update\assignment\Assignment\bin\Microsoft.ApplicationInsights.dll
+C:\Users\netsh\Desktop\18.06.2019 Update\assignment\Assignment\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\netsh\Desktop\18.06.2019 Update\assignment\Assignment\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\netsh\Desktop\18.06.2019 Update\assignment\Assignment\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\netsh\Desktop\18.06.2019 Update\assignment\Assignment\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\netsh\Desktop\18.06.2019 Update\assignment\Assignment\bin\Microsoft.Owin.dll
+C:\Users\netsh\Desktop\18.06.2019 Update\assignment\Assignment\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\netsh\Desktop\18.06.2019 Update\assignment\Assignment\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\netsh\Desktop\18.06.2019 Update\assignment\Assignment\bin\Microsoft.Owin.Security.dll
+C:\Users\netsh\Desktop\18.06.2019 Update\assignment\Assignment\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\netsh\Desktop\18.06.2019 Update\assignment\Assignment\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\netsh\Desktop\18.06.2019 Update\assignment\Assignment\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\netsh\Desktop\18.06.2019 Update\assignment\Assignment\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\netsh\Desktop\18.06.2019 Update\assignment\Assignment\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\netsh\Desktop\18.06.2019 Update\assignment\Assignment\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\netsh\Desktop\18.06.2019 Update\assignment\Assignment\bin\Newtonsoft.Json.dll
+C:\Users\netsh\Desktop\18.06.2019 Update\assignment\Assignment\bin\Owin.dll
+C:\Users\netsh\Desktop\18.06.2019 Update\assignment\Assignment\bin\System.Web.Helpers.dll
+C:\Users\netsh\Desktop\18.06.2019 Update\assignment\Assignment\bin\System.Web.Mvc.dll
+C:\Users\netsh\Desktop\18.06.2019 Update\assignment\Assignment\bin\System.Web.Optimization.dll
+C:\Users\netsh\Desktop\18.06.2019 Update\assignment\Assignment\bin\System.Web.Razor.dll
+C:\Users\netsh\Desktop\18.06.2019 Update\assignment\Assignment\bin\System.Web.WebPages.Deployment.dll
+C:\Users\netsh\Desktop\18.06.2019 Update\assignment\Assignment\bin\System.Web.WebPages.dll
+C:\Users\netsh\Desktop\18.06.2019 Update\assignment\Assignment\bin\System.Web.WebPages.Razor.dll
+C:\Users\netsh\Desktop\18.06.2019 Update\assignment\Assignment\bin\WebGrease.dll
+C:\Users\netsh\Desktop\18.06.2019 Update\assignment\Assignment\bin\Core.pdb
+C:\Users\netsh\Desktop\18.06.2019 Update\assignment\Assignment\bin\Core.dll.config
+C:\Users\netsh\Desktop\18.06.2019 Update\assignment\Assignment\bin\Domain.pdb
+C:\Users\netsh\Desktop\18.06.2019 Update\assignment\Assignment\bin\Domain.dll.config
+C:\Users\netsh\Desktop\18.06.2019 Update\assignment\Assignment\bin\EntityFramework.xml
+C:\Users\netsh\Desktop\18.06.2019 Update\assignment\Assignment\bin\EntityFramework.SqlServer.xml
+C:\Users\netsh\Desktop\18.06.2019 Update\assignment\Assignment\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\netsh\Desktop\18.06.2019 Update\assignment\Assignment\bin\System.Web.Helpers.xml
+C:\Users\netsh\Desktop\18.06.2019 Update\assignment\Assignment\bin\System.Web.Mvc.xml
+C:\Users\netsh\Desktop\18.06.2019 Update\assignment\Assignment\bin\System.Web.Optimization.xml
+C:\Users\netsh\Desktop\18.06.2019 Update\assignment\Assignment\bin\System.Web.Razor.xml
+C:\Users\netsh\Desktop\18.06.2019 Update\assignment\Assignment\bin\System.Web.WebPages.xml
+C:\Users\netsh\Desktop\18.06.2019 Update\assignment\Assignment\bin\System.Web.WebPages.Deployment.xml
+C:\Users\netsh\Desktop\18.06.2019 Update\assignment\Assignment\bin\System.Web.WebPages.Razor.xml
+C:\Users\netsh\Desktop\18.06.2019 Update\assignment\Assignment\bin\Antlr3.Runtime.pdb
+C:\Users\netsh\Desktop\18.06.2019 Update\assignment\Assignment\bin\Newtonsoft.Json.xml
+C:\Users\netsh\Desktop\18.06.2019 Update\assignment\Assignment\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\netsh\Desktop\18.06.2019 Update\assignment\Assignment\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\netsh\Desktop\18.06.2019 Update\assignment\Assignment\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\netsh\Desktop\18.06.2019 Update\assignment\Assignment\bin\Microsoft.Owin.xml
+C:\Users\netsh\Desktop\18.06.2019 Update\assignment\Assignment\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\netsh\Desktop\18.06.2019 Update\assignment\Assignment\bin\Microsoft.Owin.Security.xml
+C:\Users\netsh\Desktop\18.06.2019 Update\assignment\Assignment\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\netsh\Desktop\18.06.2019 Update\assignment\Assignment\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\netsh\Desktop\18.06.2019 Update\assignment\Assignment\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\netsh\Desktop\18.06.2019 Update\assignment\Assignment\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\netsh\Desktop\18.06.2019 Update\assignment\Assignment\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\netsh\Desktop\18.06.2019 Update\assignment\Assignment\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\netsh\Desktop\18.06.2019 Update\assignment\Assignment\bin\Microsoft.ApplicationInsights.xml
+C:\Users\netsh\Desktop\18.06.2019 Update\assignment\Assignment\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\netsh\Desktop\18.06.2019 Update\assignment\Assignment\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\netsh\Desktop\18.06.2019 Update\assignment\Assignment\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\netsh\Desktop\18.06.2019 Update\assignment\Assignment\bin\Microsoft.AI.Web.xml
+C:\Users\netsh\Desktop\18.06.2019 Update\assignment\Assignment\obj\Debug\Assignment.csprojResolveAssemblyReference.cache
+C:\Users\netsh\Desktop\18.06.2019 Update\assignment\Assignment\obj\Debug\Assignment.dll
+C:\Users\netsh\Desktop\18.06.2019 Update\assignment\Assignment\obj\Debug\Assignment.pdb
+C:\Users\User\Desktop\19.06.2019\assignment\Assignment\bin\ApplicationInsights.config
+C:\Users\User\Desktop\19.06.2019\assignment\Assignment\bin\roslyn\csc.exe
+C:\Users\User\Desktop\19.06.2019\assignment\Assignment\bin\roslyn\csc.exe.config
+C:\Users\User\Desktop\19.06.2019\assignment\Assignment\bin\roslyn\csc.rsp
+C:\Users\User\Desktop\19.06.2019\assignment\Assignment\bin\roslyn\csi.exe
+C:\Users\User\Desktop\19.06.2019\assignment\Assignment\bin\roslyn\csi.rsp
+C:\Users\User\Desktop\19.06.2019\assignment\Assignment\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\User\Desktop\19.06.2019\assignment\Assignment\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\User\Desktop\19.06.2019\assignment\Assignment\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\User\Desktop\19.06.2019\assignment\Assignment\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\User\Desktop\19.06.2019\assignment\Assignment\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\User\Desktop\19.06.2019\assignment\Assignment\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\User\Desktop\19.06.2019\assignment\Assignment\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\User\Desktop\19.06.2019\assignment\Assignment\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\User\Desktop\19.06.2019\assignment\Assignment\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\User\Desktop\19.06.2019\assignment\Assignment\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\User\Desktop\19.06.2019\assignment\Assignment\bin\roslyn\System.AppContext.dll
+C:\Users\User\Desktop\19.06.2019\assignment\Assignment\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\User\Desktop\19.06.2019\assignment\Assignment\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\User\Desktop\19.06.2019\assignment\Assignment\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\User\Desktop\19.06.2019\assignment\Assignment\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\User\Desktop\19.06.2019\assignment\Assignment\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\User\Desktop\19.06.2019\assignment\Assignment\bin\roslyn\vbc.exe
+C:\Users\User\Desktop\19.06.2019\assignment\Assignment\bin\roslyn\vbc.exe.config
+C:\Users\User\Desktop\19.06.2019\assignment\Assignment\bin\roslyn\vbc.rsp
+C:\Users\User\Desktop\19.06.2019\assignment\Assignment\bin\roslyn\VBCSCompiler.exe
+C:\Users\User\Desktop\19.06.2019\assignment\Assignment\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\User\Desktop\19.06.2019\assignment\Assignment\bin\Assignment.dll.config
+C:\Users\User\Desktop\19.06.2019\assignment\Assignment\bin\Assignment.dll
+C:\Users\User\Desktop\19.06.2019\assignment\Assignment\bin\Assignment.pdb
+C:\Users\User\Desktop\19.06.2019\assignment\Assignment\bin\Antlr3.Runtime.dll
+C:\Users\User\Desktop\19.06.2019\assignment\Assignment\bin\Core.dll
+C:\Users\User\Desktop\19.06.2019\assignment\Assignment\bin\Domain.dll
+C:\Users\User\Desktop\19.06.2019\assignment\Assignment\bin\EntityFramework.dll
+C:\Users\User\Desktop\19.06.2019\assignment\Assignment\bin\EntityFramework.SqlServer.dll
+C:\Users\User\Desktop\19.06.2019\assignment\Assignment\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\User\Desktop\19.06.2019\assignment\Assignment\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\User\Desktop\19.06.2019\assignment\Assignment\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\User\Desktop\19.06.2019\assignment\Assignment\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\User\Desktop\19.06.2019\assignment\Assignment\bin\Microsoft.AI.Web.dll
+C:\Users\User\Desktop\19.06.2019\assignment\Assignment\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\User\Desktop\19.06.2019\assignment\Assignment\bin\Microsoft.ApplicationInsights.dll
+C:\Users\User\Desktop\19.06.2019\assignment\Assignment\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\User\Desktop\19.06.2019\assignment\Assignment\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\User\Desktop\19.06.2019\assignment\Assignment\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\User\Desktop\19.06.2019\assignment\Assignment\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\User\Desktop\19.06.2019\assignment\Assignment\bin\Microsoft.Owin.dll
+C:\Users\User\Desktop\19.06.2019\assignment\Assignment\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\User\Desktop\19.06.2019\assignment\Assignment\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\User\Desktop\19.06.2019\assignment\Assignment\bin\Microsoft.Owin.Security.dll
+C:\Users\User\Desktop\19.06.2019\assignment\Assignment\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\User\Desktop\19.06.2019\assignment\Assignment\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\User\Desktop\19.06.2019\assignment\Assignment\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\User\Desktop\19.06.2019\assignment\Assignment\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\User\Desktop\19.06.2019\assignment\Assignment\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\User\Desktop\19.06.2019\assignment\Assignment\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\User\Desktop\19.06.2019\assignment\Assignment\bin\Newtonsoft.Json.dll
+C:\Users\User\Desktop\19.06.2019\assignment\Assignment\bin\Owin.dll
+C:\Users\User\Desktop\19.06.2019\assignment\Assignment\bin\System.Web.Helpers.dll
+C:\Users\User\Desktop\19.06.2019\assignment\Assignment\bin\System.Web.Mvc.dll
+C:\Users\User\Desktop\19.06.2019\assignment\Assignment\bin\System.Web.Optimization.dll
+C:\Users\User\Desktop\19.06.2019\assignment\Assignment\bin\System.Web.Razor.dll
+C:\Users\User\Desktop\19.06.2019\assignment\Assignment\bin\System.Web.WebPages.Deployment.dll
+C:\Users\User\Desktop\19.06.2019\assignment\Assignment\bin\System.Web.WebPages.dll
+C:\Users\User\Desktop\19.06.2019\assignment\Assignment\bin\System.Web.WebPages.Razor.dll
+C:\Users\User\Desktop\19.06.2019\assignment\Assignment\bin\WebGrease.dll
+C:\Users\User\Desktop\19.06.2019\assignment\Assignment\bin\Core.pdb
+C:\Users\User\Desktop\19.06.2019\assignment\Assignment\bin\Core.dll.config
+C:\Users\User\Desktop\19.06.2019\assignment\Assignment\bin\Domain.pdb
+C:\Users\User\Desktop\19.06.2019\assignment\Assignment\bin\Domain.dll.config
+C:\Users\User\Desktop\19.06.2019\assignment\Assignment\bin\EntityFramework.xml
+C:\Users\User\Desktop\19.06.2019\assignment\Assignment\bin\EntityFramework.SqlServer.xml
+C:\Users\User\Desktop\19.06.2019\assignment\Assignment\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\User\Desktop\19.06.2019\assignment\Assignment\bin\System.Web.Helpers.xml
+C:\Users\User\Desktop\19.06.2019\assignment\Assignment\bin\System.Web.Mvc.xml
+C:\Users\User\Desktop\19.06.2019\assignment\Assignment\bin\System.Web.Optimization.xml
+C:\Users\User\Desktop\19.06.2019\assignment\Assignment\bin\System.Web.Razor.xml
+C:\Users\User\Desktop\19.06.2019\assignment\Assignment\bin\System.Web.WebPages.xml
+C:\Users\User\Desktop\19.06.2019\assignment\Assignment\bin\System.Web.WebPages.Deployment.xml
+C:\Users\User\Desktop\19.06.2019\assignment\Assignment\bin\System.Web.WebPages.Razor.xml
+C:\Users\User\Desktop\19.06.2019\assignment\Assignment\bin\Antlr3.Runtime.pdb
+C:\Users\User\Desktop\19.06.2019\assignment\Assignment\bin\Newtonsoft.Json.xml
+C:\Users\User\Desktop\19.06.2019\assignment\Assignment\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\User\Desktop\19.06.2019\assignment\Assignment\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\User\Desktop\19.06.2019\assignment\Assignment\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\User\Desktop\19.06.2019\assignment\Assignment\bin\Microsoft.Owin.xml
+C:\Users\User\Desktop\19.06.2019\assignment\Assignment\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\User\Desktop\19.06.2019\assignment\Assignment\bin\Microsoft.Owin.Security.xml
+C:\Users\User\Desktop\19.06.2019\assignment\Assignment\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\User\Desktop\19.06.2019\assignment\Assignment\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\User\Desktop\19.06.2019\assignment\Assignment\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\User\Desktop\19.06.2019\assignment\Assignment\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\User\Desktop\19.06.2019\assignment\Assignment\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\User\Desktop\19.06.2019\assignment\Assignment\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\User\Desktop\19.06.2019\assignment\Assignment\bin\Microsoft.ApplicationInsights.xml
+C:\Users\User\Desktop\19.06.2019\assignment\Assignment\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\User\Desktop\19.06.2019\assignment\Assignment\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\User\Desktop\19.06.2019\assignment\Assignment\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\User\Desktop\19.06.2019\assignment\Assignment\bin\Microsoft.AI.Web.xml
+C:\Users\User\Desktop\19.06.2019\assignment\Assignment\obj\Debug\Assignment.csprojAssemblyReference.cache
+C:\Users\User\Desktop\19.06.2019\assignment\Assignment\obj\Debug\Assignment.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\19.06.2019\assignment\Assignment\obj\Debug\Assignment.csproj.CopyComplete
+C:\Users\User\Desktop\19.06.2019\assignment\Assignment\obj\Debug\Assignment.dll
+C:\Users\User\Desktop\19.06.2019\assignment\Assignment\obj\Debug\Assignment.pdb
+C:\Users\netsh\Desktop\New folder\19.06.2019\assignment\Assignment\bin\ApplicationInsights.config
+C:\Users\netsh\Desktop\New folder\19.06.2019\assignment\Assignment\bin\roslyn\csc.exe
+C:\Users\netsh\Desktop\New folder\19.06.2019\assignment\Assignment\bin\roslyn\csc.exe.config
+C:\Users\netsh\Desktop\New folder\19.06.2019\assignment\Assignment\bin\roslyn\csc.rsp
+C:\Users\netsh\Desktop\New folder\19.06.2019\assignment\Assignment\bin\roslyn\csi.exe
+C:\Users\netsh\Desktop\New folder\19.06.2019\assignment\Assignment\bin\roslyn\csi.rsp
+C:\Users\netsh\Desktop\New folder\19.06.2019\assignment\Assignment\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\netsh\Desktop\New folder\19.06.2019\assignment\Assignment\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\netsh\Desktop\New folder\19.06.2019\assignment\Assignment\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\netsh\Desktop\New folder\19.06.2019\assignment\Assignment\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\netsh\Desktop\New folder\19.06.2019\assignment\Assignment\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\netsh\Desktop\New folder\19.06.2019\assignment\Assignment\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\netsh\Desktop\New folder\19.06.2019\assignment\Assignment\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\netsh\Desktop\New folder\19.06.2019\assignment\Assignment\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\netsh\Desktop\New folder\19.06.2019\assignment\Assignment\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\netsh\Desktop\New folder\19.06.2019\assignment\Assignment\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\netsh\Desktop\New folder\19.06.2019\assignment\Assignment\bin\roslyn\System.AppContext.dll
+C:\Users\netsh\Desktop\New folder\19.06.2019\assignment\Assignment\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\netsh\Desktop\New folder\19.06.2019\assignment\Assignment\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\netsh\Desktop\New folder\19.06.2019\assignment\Assignment\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\netsh\Desktop\New folder\19.06.2019\assignment\Assignment\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\netsh\Desktop\New folder\19.06.2019\assignment\Assignment\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\netsh\Desktop\New folder\19.06.2019\assignment\Assignment\bin\roslyn\vbc.exe
+C:\Users\netsh\Desktop\New folder\19.06.2019\assignment\Assignment\bin\roslyn\vbc.exe.config
+C:\Users\netsh\Desktop\New folder\19.06.2019\assignment\Assignment\bin\roslyn\vbc.rsp
+C:\Users\netsh\Desktop\New folder\19.06.2019\assignment\Assignment\bin\roslyn\VBCSCompiler.exe
+C:\Users\netsh\Desktop\New folder\19.06.2019\assignment\Assignment\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\netsh\Desktop\New folder\19.06.2019\assignment\Assignment\bin\Assignment.dll.config
+C:\Users\netsh\Desktop\New folder\19.06.2019\assignment\Assignment\bin\Assignment.dll
+C:\Users\netsh\Desktop\New folder\19.06.2019\assignment\Assignment\bin\Assignment.pdb
+C:\Users\netsh\Desktop\New folder\19.06.2019\assignment\Assignment\bin\Antlr3.Runtime.dll
+C:\Users\netsh\Desktop\New folder\19.06.2019\assignment\Assignment\bin\Core.dll
+C:\Users\netsh\Desktop\New folder\19.06.2019\assignment\Assignment\bin\Domain.dll
+C:\Users\netsh\Desktop\New folder\19.06.2019\assignment\Assignment\bin\EntityFramework.dll
+C:\Users\netsh\Desktop\New folder\19.06.2019\assignment\Assignment\bin\EntityFramework.SqlServer.dll
+C:\Users\netsh\Desktop\New folder\19.06.2019\assignment\Assignment\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\netsh\Desktop\New folder\19.06.2019\assignment\Assignment\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\netsh\Desktop\New folder\19.06.2019\assignment\Assignment\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\netsh\Desktop\New folder\19.06.2019\assignment\Assignment\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\netsh\Desktop\New folder\19.06.2019\assignment\Assignment\bin\Microsoft.AI.Web.dll
+C:\Users\netsh\Desktop\New folder\19.06.2019\assignment\Assignment\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\netsh\Desktop\New folder\19.06.2019\assignment\Assignment\bin\Microsoft.ApplicationInsights.dll
+C:\Users\netsh\Desktop\New folder\19.06.2019\assignment\Assignment\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\netsh\Desktop\New folder\19.06.2019\assignment\Assignment\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\netsh\Desktop\New folder\19.06.2019\assignment\Assignment\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\netsh\Desktop\New folder\19.06.2019\assignment\Assignment\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\netsh\Desktop\New folder\19.06.2019\assignment\Assignment\bin\Microsoft.Owin.dll
+C:\Users\netsh\Desktop\New folder\19.06.2019\assignment\Assignment\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\netsh\Desktop\New folder\19.06.2019\assignment\Assignment\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\netsh\Desktop\New folder\19.06.2019\assignment\Assignment\bin\Microsoft.Owin.Security.dll
+C:\Users\netsh\Desktop\New folder\19.06.2019\assignment\Assignment\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\netsh\Desktop\New folder\19.06.2019\assignment\Assignment\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\netsh\Desktop\New folder\19.06.2019\assignment\Assignment\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\netsh\Desktop\New folder\19.06.2019\assignment\Assignment\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\netsh\Desktop\New folder\19.06.2019\assignment\Assignment\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\netsh\Desktop\New folder\19.06.2019\assignment\Assignment\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\netsh\Desktop\New folder\19.06.2019\assignment\Assignment\bin\Newtonsoft.Json.dll
+C:\Users\netsh\Desktop\New folder\19.06.2019\assignment\Assignment\bin\Owin.dll
+C:\Users\netsh\Desktop\New folder\19.06.2019\assignment\Assignment\bin\System.Web.Helpers.dll
+C:\Users\netsh\Desktop\New folder\19.06.2019\assignment\Assignment\bin\System.Web.Mvc.dll
+C:\Users\netsh\Desktop\New folder\19.06.2019\assignment\Assignment\bin\System.Web.Optimization.dll
+C:\Users\netsh\Desktop\New folder\19.06.2019\assignment\Assignment\bin\System.Web.Razor.dll
+C:\Users\netsh\Desktop\New folder\19.06.2019\assignment\Assignment\bin\System.Web.WebPages.Deployment.dll
+C:\Users\netsh\Desktop\New folder\19.06.2019\assignment\Assignment\bin\System.Web.WebPages.dll
+C:\Users\netsh\Desktop\New folder\19.06.2019\assignment\Assignment\bin\System.Web.WebPages.Razor.dll
+C:\Users\netsh\Desktop\New folder\19.06.2019\assignment\Assignment\bin\WebGrease.dll
+C:\Users\netsh\Desktop\New folder\19.06.2019\assignment\Assignment\bin\Core.pdb
+C:\Users\netsh\Desktop\New folder\19.06.2019\assignment\Assignment\bin\Core.dll.config
+C:\Users\netsh\Desktop\New folder\19.06.2019\assignment\Assignment\bin\Domain.pdb
+C:\Users\netsh\Desktop\New folder\19.06.2019\assignment\Assignment\bin\Domain.dll.config
+C:\Users\netsh\Desktop\New folder\19.06.2019\assignment\Assignment\bin\EntityFramework.xml
+C:\Users\netsh\Desktop\New folder\19.06.2019\assignment\Assignment\bin\EntityFramework.SqlServer.xml
+C:\Users\netsh\Desktop\New folder\19.06.2019\assignment\Assignment\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\netsh\Desktop\New folder\19.06.2019\assignment\Assignment\bin\System.Web.Helpers.xml
+C:\Users\netsh\Desktop\New folder\19.06.2019\assignment\Assignment\bin\System.Web.Mvc.xml
+C:\Users\netsh\Desktop\New folder\19.06.2019\assignment\Assignment\bin\System.Web.Optimization.xml
+C:\Users\netsh\Desktop\New folder\19.06.2019\assignment\Assignment\bin\System.Web.Razor.xml
+C:\Users\netsh\Desktop\New folder\19.06.2019\assignment\Assignment\bin\System.Web.WebPages.xml
+C:\Users\netsh\Desktop\New folder\19.06.2019\assignment\Assignment\bin\System.Web.WebPages.Deployment.xml
+C:\Users\netsh\Desktop\New folder\19.06.2019\assignment\Assignment\bin\System.Web.WebPages.Razor.xml
+C:\Users\netsh\Desktop\New folder\19.06.2019\assignment\Assignment\bin\Antlr3.Runtime.pdb
+C:\Users\netsh\Desktop\New folder\19.06.2019\assignment\Assignment\bin\Newtonsoft.Json.xml
+C:\Users\netsh\Desktop\New folder\19.06.2019\assignment\Assignment\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\netsh\Desktop\New folder\19.06.2019\assignment\Assignment\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\netsh\Desktop\New folder\19.06.2019\assignment\Assignment\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\netsh\Desktop\New folder\19.06.2019\assignment\Assignment\bin\Microsoft.Owin.xml
+C:\Users\netsh\Desktop\New folder\19.06.2019\assignment\Assignment\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\netsh\Desktop\New folder\19.06.2019\assignment\Assignment\bin\Microsoft.Owin.Security.xml
+C:\Users\netsh\Desktop\New folder\19.06.2019\assignment\Assignment\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\netsh\Desktop\New folder\19.06.2019\assignment\Assignment\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\netsh\Desktop\New folder\19.06.2019\assignment\Assignment\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\netsh\Desktop\New folder\19.06.2019\assignment\Assignment\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\netsh\Desktop\New folder\19.06.2019\assignment\Assignment\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\netsh\Desktop\New folder\19.06.2019\assignment\Assignment\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\netsh\Desktop\New folder\19.06.2019\assignment\Assignment\bin\Microsoft.ApplicationInsights.xml
+C:\Users\netsh\Desktop\New folder\19.06.2019\assignment\Assignment\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\netsh\Desktop\New folder\19.06.2019\assignment\Assignment\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\netsh\Desktop\New folder\19.06.2019\assignment\Assignment\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\netsh\Desktop\New folder\19.06.2019\assignment\Assignment\bin\Microsoft.AI.Web.xml
+C:\Users\netsh\Desktop\New folder\19.06.2019\assignment\Assignment\obj\Debug\Assignment.csprojResolveAssemblyReference.cache
+C:\Users\netsh\Desktop\New folder\19.06.2019\assignment\Assignment\obj\Debug\Assignment.dll
+C:\Users\netsh\Desktop\New folder\19.06.2019\assignment\Assignment\obj\Debug\Assignment.pdb
+C:\Users\User\Desktop\20\19.06.2019\assignment\Assignment\bin\ApplicationInsights.config
+C:\Users\User\Desktop\20\19.06.2019\assignment\Assignment\bin\roslyn\csc.exe
+C:\Users\User\Desktop\20\19.06.2019\assignment\Assignment\bin\roslyn\csc.exe.config
+C:\Users\User\Desktop\20\19.06.2019\assignment\Assignment\bin\roslyn\csc.rsp
+C:\Users\User\Desktop\20\19.06.2019\assignment\Assignment\bin\roslyn\csi.exe
+C:\Users\User\Desktop\20\19.06.2019\assignment\Assignment\bin\roslyn\csi.rsp
+C:\Users\User\Desktop\20\19.06.2019\assignment\Assignment\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\User\Desktop\20\19.06.2019\assignment\Assignment\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\User\Desktop\20\19.06.2019\assignment\Assignment\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\User\Desktop\20\19.06.2019\assignment\Assignment\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\User\Desktop\20\19.06.2019\assignment\Assignment\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\User\Desktop\20\19.06.2019\assignment\Assignment\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\User\Desktop\20\19.06.2019\assignment\Assignment\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\User\Desktop\20\19.06.2019\assignment\Assignment\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\User\Desktop\20\19.06.2019\assignment\Assignment\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\User\Desktop\20\19.06.2019\assignment\Assignment\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\User\Desktop\20\19.06.2019\assignment\Assignment\bin\roslyn\System.AppContext.dll
+C:\Users\User\Desktop\20\19.06.2019\assignment\Assignment\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\User\Desktop\20\19.06.2019\assignment\Assignment\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\User\Desktop\20\19.06.2019\assignment\Assignment\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\User\Desktop\20\19.06.2019\assignment\Assignment\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\User\Desktop\20\19.06.2019\assignment\Assignment\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\User\Desktop\20\19.06.2019\assignment\Assignment\bin\roslyn\vbc.exe
+C:\Users\User\Desktop\20\19.06.2019\assignment\Assignment\bin\roslyn\vbc.exe.config
+C:\Users\User\Desktop\20\19.06.2019\assignment\Assignment\bin\roslyn\vbc.rsp
+C:\Users\User\Desktop\20\19.06.2019\assignment\Assignment\bin\roslyn\VBCSCompiler.exe
+C:\Users\User\Desktop\20\19.06.2019\assignment\Assignment\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\User\Desktop\20\19.06.2019\assignment\Assignment\bin\Assignment.dll.config
+C:\Users\User\Desktop\20\19.06.2019\assignment\Assignment\bin\Assignment.dll
+C:\Users\User\Desktop\20\19.06.2019\assignment\Assignment\bin\Assignment.pdb
+C:\Users\User\Desktop\20\19.06.2019\assignment\Assignment\bin\Antlr3.Runtime.dll
+C:\Users\User\Desktop\20\19.06.2019\assignment\Assignment\bin\Core.dll
+C:\Users\User\Desktop\20\19.06.2019\assignment\Assignment\bin\Domain.dll
+C:\Users\User\Desktop\20\19.06.2019\assignment\Assignment\bin\EntityFramework.dll
+C:\Users\User\Desktop\20\19.06.2019\assignment\Assignment\bin\EntityFramework.SqlServer.dll
+C:\Users\User\Desktop\20\19.06.2019\assignment\Assignment\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\User\Desktop\20\19.06.2019\assignment\Assignment\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\User\Desktop\20\19.06.2019\assignment\Assignment\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\User\Desktop\20\19.06.2019\assignment\Assignment\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\User\Desktop\20\19.06.2019\assignment\Assignment\bin\Microsoft.AI.Web.dll
+C:\Users\User\Desktop\20\19.06.2019\assignment\Assignment\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\User\Desktop\20\19.06.2019\assignment\Assignment\bin\Microsoft.ApplicationInsights.dll
+C:\Users\User\Desktop\20\19.06.2019\assignment\Assignment\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\User\Desktop\20\19.06.2019\assignment\Assignment\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\User\Desktop\20\19.06.2019\assignment\Assignment\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\User\Desktop\20\19.06.2019\assignment\Assignment\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\User\Desktop\20\19.06.2019\assignment\Assignment\bin\Microsoft.Owin.dll
+C:\Users\User\Desktop\20\19.06.2019\assignment\Assignment\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\User\Desktop\20\19.06.2019\assignment\Assignment\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\User\Desktop\20\19.06.2019\assignment\Assignment\bin\Microsoft.Owin.Security.dll
+C:\Users\User\Desktop\20\19.06.2019\assignment\Assignment\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\User\Desktop\20\19.06.2019\assignment\Assignment\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\User\Desktop\20\19.06.2019\assignment\Assignment\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\User\Desktop\20\19.06.2019\assignment\Assignment\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\User\Desktop\20\19.06.2019\assignment\Assignment\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\User\Desktop\20\19.06.2019\assignment\Assignment\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\User\Desktop\20\19.06.2019\assignment\Assignment\bin\Newtonsoft.Json.dll
+C:\Users\User\Desktop\20\19.06.2019\assignment\Assignment\bin\Owin.dll
+C:\Users\User\Desktop\20\19.06.2019\assignment\Assignment\bin\System.Web.Helpers.dll
+C:\Users\User\Desktop\20\19.06.2019\assignment\Assignment\bin\System.Web.Mvc.dll
+C:\Users\User\Desktop\20\19.06.2019\assignment\Assignment\bin\System.Web.Optimization.dll
+C:\Users\User\Desktop\20\19.06.2019\assignment\Assignment\bin\System.Web.Razor.dll
+C:\Users\User\Desktop\20\19.06.2019\assignment\Assignment\bin\System.Web.WebPages.Deployment.dll
+C:\Users\User\Desktop\20\19.06.2019\assignment\Assignment\bin\System.Web.WebPages.dll
+C:\Users\User\Desktop\20\19.06.2019\assignment\Assignment\bin\System.Web.WebPages.Razor.dll
+C:\Users\User\Desktop\20\19.06.2019\assignment\Assignment\bin\WebGrease.dll
+C:\Users\User\Desktop\20\19.06.2019\assignment\Assignment\bin\Core.pdb
+C:\Users\User\Desktop\20\19.06.2019\assignment\Assignment\bin\Core.dll.config
+C:\Users\User\Desktop\20\19.06.2019\assignment\Assignment\bin\Domain.pdb
+C:\Users\User\Desktop\20\19.06.2019\assignment\Assignment\bin\Domain.dll.config
+C:\Users\User\Desktop\20\19.06.2019\assignment\Assignment\bin\EntityFramework.xml
+C:\Users\User\Desktop\20\19.06.2019\assignment\Assignment\bin\EntityFramework.SqlServer.xml
+C:\Users\User\Desktop\20\19.06.2019\assignment\Assignment\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\User\Desktop\20\19.06.2019\assignment\Assignment\bin\System.Web.Helpers.xml
+C:\Users\User\Desktop\20\19.06.2019\assignment\Assignment\bin\System.Web.Mvc.xml
+C:\Users\User\Desktop\20\19.06.2019\assignment\Assignment\bin\System.Web.Optimization.xml
+C:\Users\User\Desktop\20\19.06.2019\assignment\Assignment\bin\System.Web.Razor.xml
+C:\Users\User\Desktop\20\19.06.2019\assignment\Assignment\bin\System.Web.WebPages.xml
+C:\Users\User\Desktop\20\19.06.2019\assignment\Assignment\bin\System.Web.WebPages.Deployment.xml
+C:\Users\User\Desktop\20\19.06.2019\assignment\Assignment\bin\System.Web.WebPages.Razor.xml
+C:\Users\User\Desktop\20\19.06.2019\assignment\Assignment\bin\Antlr3.Runtime.pdb
+C:\Users\User\Desktop\20\19.06.2019\assignment\Assignment\bin\Newtonsoft.Json.xml
+C:\Users\User\Desktop\20\19.06.2019\assignment\Assignment\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\User\Desktop\20\19.06.2019\assignment\Assignment\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\User\Desktop\20\19.06.2019\assignment\Assignment\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\User\Desktop\20\19.06.2019\assignment\Assignment\bin\Microsoft.Owin.xml
+C:\Users\User\Desktop\20\19.06.2019\assignment\Assignment\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\User\Desktop\20\19.06.2019\assignment\Assignment\bin\Microsoft.Owin.Security.xml
+C:\Users\User\Desktop\20\19.06.2019\assignment\Assignment\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\User\Desktop\20\19.06.2019\assignment\Assignment\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\User\Desktop\20\19.06.2019\assignment\Assignment\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\User\Desktop\20\19.06.2019\assignment\Assignment\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\User\Desktop\20\19.06.2019\assignment\Assignment\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\User\Desktop\20\19.06.2019\assignment\Assignment\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\User\Desktop\20\19.06.2019\assignment\Assignment\bin\Microsoft.ApplicationInsights.xml
+C:\Users\User\Desktop\20\19.06.2019\assignment\Assignment\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\User\Desktop\20\19.06.2019\assignment\Assignment\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\User\Desktop\20\19.06.2019\assignment\Assignment\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\User\Desktop\20\19.06.2019\assignment\Assignment\bin\Microsoft.AI.Web.xml
+C:\Users\User\Desktop\20\19.06.2019\assignment\Assignment\obj\Debug\Assignment.csprojAssemblyReference.cache
+C:\Users\User\Desktop\20\19.06.2019\assignment\Assignment\obj\Debug\Assignment.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\20\19.06.2019\assignment\Assignment\obj\Debug\Assignment.csproj.CopyComplete
+C:\Users\User\Desktop\20\19.06.2019\assignment\Assignment\obj\Debug\Assignment.dll
+C:\Users\User\Desktop\20\19.06.2019\assignment\Assignment\obj\Debug\Assignment.pdb
+C:\Users\netsh\Desktop\20 Update\19.06.2019\assignment\Assignment\bin\ApplicationInsights.config
+C:\Users\netsh\Desktop\20 Update\19.06.2019\assignment\Assignment\bin\roslyn\csc.exe
+C:\Users\netsh\Desktop\20 Update\19.06.2019\assignment\Assignment\bin\roslyn\csc.exe.config
+C:\Users\netsh\Desktop\20 Update\19.06.2019\assignment\Assignment\bin\roslyn\csc.rsp
+C:\Users\netsh\Desktop\20 Update\19.06.2019\assignment\Assignment\bin\roslyn\csi.exe
+C:\Users\netsh\Desktop\20 Update\19.06.2019\assignment\Assignment\bin\roslyn\csi.rsp
+C:\Users\netsh\Desktop\20 Update\19.06.2019\assignment\Assignment\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\netsh\Desktop\20 Update\19.06.2019\assignment\Assignment\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\netsh\Desktop\20 Update\19.06.2019\assignment\Assignment\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\netsh\Desktop\20 Update\19.06.2019\assignment\Assignment\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\netsh\Desktop\20 Update\19.06.2019\assignment\Assignment\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\netsh\Desktop\20 Update\19.06.2019\assignment\Assignment\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\netsh\Desktop\20 Update\19.06.2019\assignment\Assignment\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\netsh\Desktop\20 Update\19.06.2019\assignment\Assignment\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\netsh\Desktop\20 Update\19.06.2019\assignment\Assignment\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\netsh\Desktop\20 Update\19.06.2019\assignment\Assignment\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\netsh\Desktop\20 Update\19.06.2019\assignment\Assignment\bin\roslyn\System.AppContext.dll
+C:\Users\netsh\Desktop\20 Update\19.06.2019\assignment\Assignment\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\netsh\Desktop\20 Update\19.06.2019\assignment\Assignment\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\netsh\Desktop\20 Update\19.06.2019\assignment\Assignment\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\netsh\Desktop\20 Update\19.06.2019\assignment\Assignment\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\netsh\Desktop\20 Update\19.06.2019\assignment\Assignment\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\netsh\Desktop\20 Update\19.06.2019\assignment\Assignment\bin\roslyn\vbc.exe
+C:\Users\netsh\Desktop\20 Update\19.06.2019\assignment\Assignment\bin\roslyn\vbc.exe.config
+C:\Users\netsh\Desktop\20 Update\19.06.2019\assignment\Assignment\bin\roslyn\vbc.rsp
+C:\Users\netsh\Desktop\20 Update\19.06.2019\assignment\Assignment\bin\roslyn\VBCSCompiler.exe
+C:\Users\netsh\Desktop\20 Update\19.06.2019\assignment\Assignment\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\netsh\Desktop\20 Update\19.06.2019\assignment\Assignment\bin\Assignment.dll.config
+C:\Users\netsh\Desktop\20 Update\19.06.2019\assignment\Assignment\bin\Assignment.dll
+C:\Users\netsh\Desktop\20 Update\19.06.2019\assignment\Assignment\bin\Assignment.pdb
+C:\Users\netsh\Desktop\20 Update\19.06.2019\assignment\Assignment\bin\Antlr3.Runtime.dll
+C:\Users\netsh\Desktop\20 Update\19.06.2019\assignment\Assignment\bin\Core.dll
+C:\Users\netsh\Desktop\20 Update\19.06.2019\assignment\Assignment\bin\Domain.dll
+C:\Users\netsh\Desktop\20 Update\19.06.2019\assignment\Assignment\bin\EntityFramework.dll
+C:\Users\netsh\Desktop\20 Update\19.06.2019\assignment\Assignment\bin\EntityFramework.SqlServer.dll
+C:\Users\netsh\Desktop\20 Update\19.06.2019\assignment\Assignment\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\netsh\Desktop\20 Update\19.06.2019\assignment\Assignment\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\netsh\Desktop\20 Update\19.06.2019\assignment\Assignment\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\netsh\Desktop\20 Update\19.06.2019\assignment\Assignment\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\netsh\Desktop\20 Update\19.06.2019\assignment\Assignment\bin\Microsoft.AI.Web.dll
+C:\Users\netsh\Desktop\20 Update\19.06.2019\assignment\Assignment\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\netsh\Desktop\20 Update\19.06.2019\assignment\Assignment\bin\Microsoft.ApplicationInsights.dll
+C:\Users\netsh\Desktop\20 Update\19.06.2019\assignment\Assignment\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\netsh\Desktop\20 Update\19.06.2019\assignment\Assignment\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\netsh\Desktop\20 Update\19.06.2019\assignment\Assignment\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\netsh\Desktop\20 Update\19.06.2019\assignment\Assignment\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\netsh\Desktop\20 Update\19.06.2019\assignment\Assignment\bin\Microsoft.Owin.dll
+C:\Users\netsh\Desktop\20 Update\19.06.2019\assignment\Assignment\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\netsh\Desktop\20 Update\19.06.2019\assignment\Assignment\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\netsh\Desktop\20 Update\19.06.2019\assignment\Assignment\bin\Microsoft.Owin.Security.dll
+C:\Users\netsh\Desktop\20 Update\19.06.2019\assignment\Assignment\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\netsh\Desktop\20 Update\19.06.2019\assignment\Assignment\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\netsh\Desktop\20 Update\19.06.2019\assignment\Assignment\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\netsh\Desktop\20 Update\19.06.2019\assignment\Assignment\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\netsh\Desktop\20 Update\19.06.2019\assignment\Assignment\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\netsh\Desktop\20 Update\19.06.2019\assignment\Assignment\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\netsh\Desktop\20 Update\19.06.2019\assignment\Assignment\bin\Newtonsoft.Json.dll
+C:\Users\netsh\Desktop\20 Update\19.06.2019\assignment\Assignment\bin\Owin.dll
+C:\Users\netsh\Desktop\20 Update\19.06.2019\assignment\Assignment\bin\System.Web.Helpers.dll
+C:\Users\netsh\Desktop\20 Update\19.06.2019\assignment\Assignment\bin\System.Web.Mvc.dll
+C:\Users\netsh\Desktop\20 Update\19.06.2019\assignment\Assignment\bin\System.Web.Optimization.dll
+C:\Users\netsh\Desktop\20 Update\19.06.2019\assignment\Assignment\bin\System.Web.Razor.dll
+C:\Users\netsh\Desktop\20 Update\19.06.2019\assignment\Assignment\bin\System.Web.WebPages.Deployment.dll
+C:\Users\netsh\Desktop\20 Update\19.06.2019\assignment\Assignment\bin\System.Web.WebPages.dll
+C:\Users\netsh\Desktop\20 Update\19.06.2019\assignment\Assignment\bin\System.Web.WebPages.Razor.dll
+C:\Users\netsh\Desktop\20 Update\19.06.2019\assignment\Assignment\bin\WebGrease.dll
+C:\Users\netsh\Desktop\20 Update\19.06.2019\assignment\Assignment\bin\Core.pdb
+C:\Users\netsh\Desktop\20 Update\19.06.2019\assignment\Assignment\bin\Core.dll.config
+C:\Users\netsh\Desktop\20 Update\19.06.2019\assignment\Assignment\bin\Domain.pdb
+C:\Users\netsh\Desktop\20 Update\19.06.2019\assignment\Assignment\bin\Domain.dll.config
+C:\Users\netsh\Desktop\20 Update\19.06.2019\assignment\Assignment\bin\EntityFramework.xml
+C:\Users\netsh\Desktop\20 Update\19.06.2019\assignment\Assignment\bin\EntityFramework.SqlServer.xml
+C:\Users\netsh\Desktop\20 Update\19.06.2019\assignment\Assignment\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\netsh\Desktop\20 Update\19.06.2019\assignment\Assignment\bin\System.Web.Helpers.xml
+C:\Users\netsh\Desktop\20 Update\19.06.2019\assignment\Assignment\bin\System.Web.Mvc.xml
+C:\Users\netsh\Desktop\20 Update\19.06.2019\assignment\Assignment\bin\System.Web.Optimization.xml
+C:\Users\netsh\Desktop\20 Update\19.06.2019\assignment\Assignment\bin\System.Web.Razor.xml
+C:\Users\netsh\Desktop\20 Update\19.06.2019\assignment\Assignment\bin\System.Web.WebPages.xml
+C:\Users\netsh\Desktop\20 Update\19.06.2019\assignment\Assignment\bin\System.Web.WebPages.Deployment.xml
+C:\Users\netsh\Desktop\20 Update\19.06.2019\assignment\Assignment\bin\System.Web.WebPages.Razor.xml
+C:\Users\netsh\Desktop\20 Update\19.06.2019\assignment\Assignment\bin\Antlr3.Runtime.pdb
+C:\Users\netsh\Desktop\20 Update\19.06.2019\assignment\Assignment\bin\Newtonsoft.Json.xml
+C:\Users\netsh\Desktop\20 Update\19.06.2019\assignment\Assignment\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\netsh\Desktop\20 Update\19.06.2019\assignment\Assignment\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\netsh\Desktop\20 Update\19.06.2019\assignment\Assignment\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\netsh\Desktop\20 Update\19.06.2019\assignment\Assignment\bin\Microsoft.Owin.xml
+C:\Users\netsh\Desktop\20 Update\19.06.2019\assignment\Assignment\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\netsh\Desktop\20 Update\19.06.2019\assignment\Assignment\bin\Microsoft.Owin.Security.xml
+C:\Users\netsh\Desktop\20 Update\19.06.2019\assignment\Assignment\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\netsh\Desktop\20 Update\19.06.2019\assignment\Assignment\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\netsh\Desktop\20 Update\19.06.2019\assignment\Assignment\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\netsh\Desktop\20 Update\19.06.2019\assignment\Assignment\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\netsh\Desktop\20 Update\19.06.2019\assignment\Assignment\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\netsh\Desktop\20 Update\19.06.2019\assignment\Assignment\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\netsh\Desktop\20 Update\19.06.2019\assignment\Assignment\bin\Microsoft.ApplicationInsights.xml
+C:\Users\netsh\Desktop\20 Update\19.06.2019\assignment\Assignment\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\netsh\Desktop\20 Update\19.06.2019\assignment\Assignment\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\netsh\Desktop\20 Update\19.06.2019\assignment\Assignment\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\netsh\Desktop\20 Update\19.06.2019\assignment\Assignment\bin\Microsoft.AI.Web.xml
+C:\Users\netsh\Desktop\20 Update\19.06.2019\assignment\Assignment\obj\Debug\Assignment.csprojResolveAssemblyReference.cache
+C:\Users\netsh\Desktop\20 Update\19.06.2019\assignment\Assignment\obj\Debug\Assignment.dll
+C:\Users\netsh\Desktop\20 Update\19.06.2019\assignment\Assignment\obj\Debug\Assignment.pdb

@@ -1,0 +1,1355 @@
+﻿
+@model  Domain.ViewModels.BusinessEntitiesViewModel
+@{
+    ViewBag.Title = "Index";
+}
+
+
+<div class="modal fade" id="largesizemodal" data-keyboard="false" data-backdrop="static" style="display: none; padding-right: 17px;" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Your modal title here</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">×</span>
+                </button>
+            </div>
+            <div class="modal-body">
+
+                
+                <div class="alert alert-success alert-dismissible" role="alert" id="ModalAlert" style="display:none;">
+                    <button type="button" class="close" id="linkClose">×</button>
+                    <div class="alert-icon">
+                        <i class="fa fa-check"></i>
+                    </div>
+                    <div class="alert-message">
+                        <span id="ModalMsg"></span>
+                    </div>
+                </div>
+                <form>
+                    <div class="col-md-12">
+
+                        <div class="col-md-8 col-lg-8 col-sm-12 col-xs-12">
+                            <div class="row">
+                                <div class="col-md-6 col-lg-6 col-sm-12">
+                                    <div class="form-group row">
+                                        <label for="txtId" class="col-md-4 control-label fontsize">ID/Code</label>
+                                        <div class="col-md-8">
+                                            <input type="text" id="txtBusinessId" hidden />
+                                            <input type="text" id="txtImagePath" hidden />
+                                            <input type="text" id="txtId" class="form-control" placeholder="Enter ID/Code">
+                                        </div>
+                                        <div class="col-md-8 col-md-offset3" id="ValidateId" style="display:none;">
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-6 col-sm-12">
+                                    <div class="form-group row">
+                                        <label for="txtEmail" class="col-md-3 control-label fontsize">Email</label>
+                                        <div class="col-md-9">
+                                            <input type="email" id="txtEmail" class="form-control" placeholder="Enter Email Address">
+                                        </div>
+                                        <div class="col-md-9 col-md-offset3" id="ValidateEmail" style="display:none;">
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+
+                                <div class="col-md-6 col-lg-6 col-sm-12">
+                                    <div class="form-group row">
+                                        <label for="txtAgentName" class="col-md-4 control-label fontsize">Name : </label>
+                                        <div class="col-md-8">
+                                            <input type="text" id="txtAgentName" class="form-control" placeholder="Enter  Name">
+                                        </div>
+                                        <div class="col-md-8 col-md-offset-4" id="ValidateAgentName" style="display:none;">
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-6 col-sm-12">
+                                    <div class="form-group row">
+                                        <label for="txtMobile" class="col-sm-3  control-label fontsize">Mobile : </label>
+                                        <div class="col-sm-9">
+                                            <input type="text" id="txtMobile" class="form-control" placeholder="Enter Email Address">
+                                        </div>
+                                        <div class="col-md-9 col-md-offset3" id="ValidateDiv" style="display:none;">
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6 col-lg-6 col-sm-12">
+                                    <div class="form-group row">
+                                        <label for="txtMarkupPlan" class="col-sm-4 control-label fontsize">Markup Plan</label>
+                                        <div class="col-sm-8">
+                                            <select class="form-control" id="txtMarkupPlan">
+                                                <option>Please Select Your Markup Plan</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="col-md-6 col-lg-6 col-sm-12">
+                                    <div class="form-group row">
+                                        <label for="txtPhone" class="col-sm-3 control-label fontsize">Phone  </label>
+                                        <div class="col-sm-9">
+                                            <input type="text" id="txtPhone" class="form-control" placeholder="Enter Email Address">
+                                        </div>
+                                        <div class="col-md-9 col-md-offset3" id="ValidatePhone" style="display:none;">
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12 col-lg-12 col-sm-12">
+                                    <div class="form-group row">
+                                        <label for="txtAddress" class="col-sm-2 control-label fontsize">Address </label>
+                                        <div class="col-sm-10">
+                                            <input type="text" id="txtAddress" class="form-control" placeholder="Enter  Address">
+                                        </div>
+                                        <div class="col-md-10 col-md-offset2" id="ValidateAddress" style="display:none;">
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6 col-lg-6 col-sm-12">
+                                    <div class="form-group row">
+                                        <label for="txtCity" class="col-sm-4 control-label fontsize">City </label>
+                                        <div class="col-sm-8">
+                                            <input type="text" id="txtCity" class="form-control" placeholder="Enter City">
+                                        </div>
+                                        <div class="col-md-8 col-md-offset3" id="ValidateCity" style="display:none;">
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-6 col-sm-12">
+                                    <div class="form-group row">
+                                        <label for="txtState" class="col-sm-3 control-label fontsize">State</label>
+                                        <div class="col-sm-9">
+                                            <input type="text" id="txtState" class="form-control" placeholder="Enter State">
+                                        </div>
+                                        <div class="col-md-9 col-md-offset3" id="ValidateState" style="display:none;">
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6 col-lg-6 col-sm-12">
+                                    <div class="form-group row">
+                                        <label for="txtCountry" class="col-sm-4 control-label fontsize">Country</label>
+                                        <div class="col-sm-8">
+                                            <input type="text" id="txtCountry" class="form-control" placeholder="Enter Country">
+                                        </div>
+                                        <div class="col-md-8 col-md-offset4" id="ValidateCountry" style="display:none;">
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-6 col-sm-12">
+                                    <div class="form-group row">
+                                        <label for="txtContactPerson" class="col-sm-3 control-label fontsize">Cotact Person</label>
+                                        <div class="col-sm-9">
+                                            <input type="text" id="txtContactPerson" class="form-control" placeholder="Enter Email Address">
+                                        </div>
+                                        <div class="col-md-9 col-md-offset3" id="ValidateContactPerson" style="display:none;">
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-6 col-lg-6 col-sm-12">
+                                    <div class="form-group row">
+                                        <label for="txtPostalCode" class="col-sm-4 control-label fontsize">Zip/Postal Code</label>
+                                        <div class="col-sm-8">
+                                            <input type="text" id="txtPostalCode" class="form-control" placeholder="Enter Zip/Postal Code">
+                                        </div>
+                                        <div class="col-md-8 col-md-offset3" id="ValidatePostalCode" style="display:none;">
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-6 col-sm-12">
+                                    <div class="form-group row">
+                                        <label for="txtReferredBy" class="col-sm-3 control-label fontsize">Referred By</label>
+                                        <div class="col-sm-9">
+                                            <input type="text" id="txtReferredBy" class="form-control" placeholder="Enter Referred By Name">
+                                        </div>
+                                        <div class="col-md-9 col-md-offset3" id="ValidateReferredBy" style="display:none;">
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-6 col-lg-6 col-sm-12">
+                                    <div class="form-group row">
+                                        <label for="txtBalance" class="col-sm-4 control-label fontsize">Balance</label>
+                                        <div class="col-sm-8">
+                                            <input type="text" id="txtBalance" class="form-control" placeholder="Enter Balance">
+                                        </div>
+                                        <div class="col-md-8 col-md-offset3" id="ValidateBalance" style="display:none;">
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12" style="padding-left:20px;">
+                            <div class="row" style="margin-bottom:20px;">
+                                <div class="col-md-12">
+                                    <h6>Flight APIs</h6>
+                                </div>
+                                <!-- Checkboxes -->
+                                <div class="col-md-12">
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="chkRegent" value="REGENT">
+                                        <label class="form-check-label">REGENT</label>
+                                    </div>
+
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="chkNovo" value="NOVO">
+                                        <label class="form-check-label">NOVO</label>
+                                    </div>
+
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="chkGalileo" value="GALILEO">
+                                        <label class="form-check-label">GALILEO</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="chkUsbs" value="USB-S">
+                                        <label class="form-check-label">USB-S</label>
+                                    </div>
+
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="chkIndigo" value="INDIGO">
+                                        <label class="form-check-label">INDIGO</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row" style="margin-bottom:20px;">
+                                <div class="col-md-12">
+                                    <h6>Agent Type</h6>
+                                </div>
+                                <!-- Checkboxes -->
+                                <div class="col-md-12">
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" id="rbnAgentB2B" name="AgentType" value="B2B">
+                                        <label class="form-check-label">B2B</label>
+                                    </div>
+
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" id="rbnAgentB2C" name="AgentType" value="B2C">
+                                        <label class="form-check-label">B2C</label>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="row" style="margin-bottom:20px;">
+                                <div class="col-md-12">
+                                    <h6>Status</h6>
+                                </div>
+                                <!-- Checkboxes -->
+                                <div class="col-md-12">
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" id="rbnStatusNew" name="Status" value="NEW">
+                                        <label class="form-check-label">NEW</label>
+                                    </div>
+
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" id="rbnStatusActive" name="Status" value="ACTIVE">
+                                        <label class="form-check-label">ACTIVE</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" id="rbnStatusINActive" name="Status" value="INACTIVE">
+                                        <label class="form-check-label">INACTIVE</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" id="rbnStatusLocked" name="Status" value="LOCKED">
+                                        <label class="form-check-label">Locked</label>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h6>Agent Image</h6>
+                                </div>
+                                <div class="col-md-12">
+
+
+
+                                    <div class="btn btn-primary">
+                                        <input type="file" id="imageBrowes" />
+                                    </div>
+
+
+                                    <div id="imgPreview" class="img-rounded" style="height:150px;width:140px;border:1px solid #ccc;padding:3px 3px 3px 3px; margin-top:10px;">
+                                        <img class="img-responsive" id="targetImg" style="height:140px;width:130px" />
+                                        @*<div class="caption">
+                                    <a href="#" onclick="ClearPreview()"><i class="glyphicon glyphicon-trash"></i></a>
+                                    <span id="description"></span>
+                                </div>*@
+                                        @*<a href="#" class="btn btn-default" onclick="Uploadimage()">Upload</a>*@
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+
+</div>
+                
+
+                    <div class="col-md-12">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group row">
+                                    <label for="txtsmtpServer" class="col-md-4 control-label fontsize">SMTP Server</label>
+                                    <div class="col-md-8">
+                                        <input type="text" id="txtsmtpServer" class="form-control" placeholder="Enter SMTP Server Name">
+                                    </div>
+                                    <div class="col-md-8 col-md-offset-4" id="ValidateEmail" style="display:none;">
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group row">
+                                    <label for="txtSMTPPort" class="col-md-4 control-label fontsize">SMTP Port</label>
+                                    <div class="col-md-8">
+                                        <input type="text" id="txtSMTPPort" class="form-control" placeholder="Enter SMTP Port">
+                                    </div>
+                                    <div class="col-md-8 col-md-offset-4" id="ValidateEmail" style="display:none;">
+
+                                    </div>
+                                </div>
+                            </div>
+                            
+
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group row">
+                                    <label for="txtSMTPUsername" class="col-md-4 control-label fontsize">SMTP User Name</label>
+                                    <div class="col-md-8">
+                                        <input type="text" id="txtSMTPUsername" class="form-control" placeholder="Enter SMTP User Name">
+                                    </div>
+                                    <div class="col-md-8 col-md-offset-4" id="ValidateEmail" style="display:none;">
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group row">
+                                    <label for="txtSMTPPassword" class="col-md-4 control-label fontsize">SMTP Password</label>
+                                    <div class="col-md-8">
+                                        <input type="text" id="txtSMTPPassword" class="form-control" placeholder="Enter SMTP Password">
+                                    </div>
+                                    <div class="col-md-8 col-md-offset-4" id="ValidateEmail" style="display:none;">
+
+                                    </div>
+                                </div>
+                            </div>
+                          
+
+                        </div>
+
+                    </div>
+
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" id="btnCancel" class="btn btn-inverse-primary" data-dismiss="modal"><i class="fa fa-times"></i> Cancel</button>
+                <button type="button" id="btnSave" class="btn btn-primary"><i class="fa fa-check-square-o"></i> Save</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade show" id="infomodal" data-keyboard="false" data-backdrop="static" style="display: none; padding-right: 17px;" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content border-info">
+            <div class="modal-header bg-info">
+                <h5 class="modal-title text-white">Your modal title here</h5>
+                <button type="button" class="close text-white" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">×</span>
+                </button>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button id="btnyes" type="button" class="btn btn-danger" value="1" data-dismiss="modal">Yes</button>
+                <button id="btnno" type="button" class="btn btn-danger" value="2" data-dismiss="modal">No</button>
+            </div>
+        </div>
+    </div>
+</div><!--End Modal -->
+<div class="alert alert-success alert-dismissible" role="alert" id="myAlert" style="display:none;">
+    <button type="button" class="close" id="linkClose">×</button>
+    <div class="alert-icon">
+        <i class="fa fa-check"></i>
+    </div>
+    <div class="alert-message">
+        <span id="AlertMsg"></span>
+    </div>
+</div>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="form-group">
+                <a href="#" id="btnModal" class="btn btn-info"><i class="fa fa-plus"></i> Add Agent</a>
+                <a href="@Url.Action("Index","MarkupPlan")" class="btn btn-info"><i class="fa fa-plus"></i> Markup Plan</a>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="card Cardheight">
+                <div class="card-header text-uppercase">Agent List Information</div>
+                <div class="card-body">
+                    <div class="row" style="padding:5px 5px;">
+                        <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                            <div class="form-group row">
+                                <div class="col-sm-12">
+                                    <input type="text" id="txtCodeNumber" class="form-control" placeholder="Enter Code Number">
+                                </div>
+                                <div class="col-md-12" id="ValidateDiv" style="display:none;">
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                            <div class="form-group row">
+                                <div class="col-sm-12">
+                                    <input type="text" id="txtName" class="form-control" placeholder="Enter Name">
+                                </div>
+                                <div class="col-md-12" id="ValidateDiv" style="display:none;">
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
+                            <div class="form-group row">
+                                <div class="col-md-12">
+                                    <select class="form-control" id="txtMarkupPlanId">
+                                        <option>Please Select Your Markup Plan</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-12" id="ValidateDiv" style="display:none;">
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-1 col-md-1 col-sm-12 col-xs-12">
+
+                            <button class="btn btn-secondary waves-effect waves-light" type="button" id="btnSearch" >
+                                <i class="fa fa-search"></i>
+                            </button>
+
+                        </div>
+
+
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="table-responsive">
+                                <table class="table table-bordered table-hover table-striped" id="AgentList" style="width: 100%">
+                                    <thead>
+                                        <tr>
+                                            <th>JOINED ON</th>
+                                            <th>CODE</th>
+                                            <th>NAME</th>
+                                            <th>MARKUP PLAN</th>
+                                            <th>MOBILE</th>
+                                            <th>EMAIL</th>
+                                            <th>Balance(BDT)</th>
+                                            <th>Action</th>
+                                        </tr>
+                                    </thead>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+
+
+@section Scripts {
+
+    @Scripts.Render("~/bundles/jqueryval")
+  
+<script>
+
+        $(document).ready(function () {
+            LoadMarkupPlan();
+            LoadAgentList();
+            $("#chkRegent").prop('checked', false);
+            $("#chkNovo").prop('checked', false);
+            $("#chkGalileo").prop('checked', false);
+            $("#chkUsbs").prop('checked', false);
+            $("#chkIndigo").prop('checked', false);
+            $("#rbnAgentB2B").prop('checked', false);
+            $("#rbnAgentB2C").prop('checked', false);
+            $("#rbnStatusNew").prop('checked', false);
+            $("#rbnStatusActive").prop('checked', false);
+            $("#rbnStatusINActive").prop('checked', false);
+            $("#rbnStatusLocked").prop('checked', false);
+
+
+            $("#imageBrowes").change(function () {
+
+                var File = this.files;
+
+                if (File && File[0]) {
+                    ReadImage(File[0]);
+                }
+
+            })
+ });
+
+//CheckBox Region
+        var radioArray = new Array(2);
+        $("#chkRegent").click(function () {
+            radioId = $(this).attr('id');
+            if (radioArray[radioId] == 1) {
+                $("#dvStore").hide();
+                $(this).prop('checked', false);
+                radioArray[radioId] = 0; // changing the value of given key of array
+            }
+            else {
+                $(this).prop('checked', true);
+                radioArray[radioId] = 1; // changing the value of given key of array
+            }
+        });
+
+        $("#chkNovo").click(function () {
+            radioId = $(this).attr('id');
+            if (radioArray[radioId] == 1) {
+
+                $(this).prop('checked', false);
+                radioArray[radioId] = 0; // changing the value of given key of array
+            }
+            else {
+                $(this).prop('checked', true);
+                radioArray[radioId] = 1; // changing the value of given key of array
+            }
+        });
+
+        $("#chkGalileo").click(function () {
+            radioId = $(this).attr('id');
+            if (radioArray[radioId] == 1) {
+
+                $(this).prop('checked', false);
+                radioArray[radioId] = 0; // changing the value of given key of array
+            }
+            else {
+                $(this).prop('checked', true);
+                radioArray[radioId] = 1; // changing the value of given key of array
+            }
+        });
+
+        $("#chkUsbs").click(function () {
+            radioId = $(this).attr('id');
+            if (radioArray[radioId] == 1) {
+                $(this).prop('checked', false);
+                radioArray[radioId] = 0; // changing the value of given key of array
+            }
+            else {
+                $(this).prop('checked', true);
+                radioArray[radioId] = 1; // changing the value of given key of array
+            }
+        });
+
+        $("#chkIndigo").click(function () {
+            radioId = $(this).attr('id');
+            if (radioArray[radioId] == 1) {
+
+                $(this).prop('checked', false);
+                radioArray[radioId] = 0; // changing the value of given key of array
+            }
+            else {
+                $(this).prop('checked', true);
+                radioArray[radioId] = 1; // changing the value of given key of array
+            }
+        });
+
+     
+
+        $("#rbnAgentB2B").click(function () {
+            radioId = $(this).attr('id');
+            if (radioArray[radioId] == 1) {
+
+                $(this).prop('checked', false);
+                radioArray[radioId] = 0; // changing the value of given key of array
+            }
+            else {
+                $(this).prop('checked', true);
+               
+                radioArray[radioId] = 1; // changing the value of given key of array
+            }
+        });
+
+
+        $("#rbnAgentB2C").click(function () {
+            radioId = $(this).attr('id');
+            if (radioArray[radioId] == 1) {
+
+                $(this).prop('checked', false);
+                radioArray[radioId] = 0; // changing the value of given key of array
+            }
+            else {
+                $(this).prop('checked', true);
+               
+                radioArray[radioId] = 1; // changing the value of given key of array
+            }
+        });
+        $("#rbnStatusNew").click(function () {
+            radioId = $(this).attr('id');
+            if (radioArray[radioId] == 1) {
+
+                $(this).prop('checked', false);
+                radioArray[radioId] = 0; // changing the value of given key of array
+            }
+            else {
+                $(this).prop('checked', true);
+               
+                radioArray[radioId] = 1; // changing the value of given key of array
+            }
+        });
+
+        $("#rbnStatusActive").click(function () {
+            radioId = $(this).attr('id');
+            if (radioArray[radioId] == 1) {
+
+                $(this).prop('checked', false);
+                radioArray[radioId] = 0; // changing the value of given key of array
+            }
+            else {
+                $(this).prop('checked', true);
+                radioArray[radioId] = 1; // changing the value of given key of array
+            }
+        });
+        $("#rbnStatusINActive").click(function () {
+            radioId = $(this).attr('id');
+            if (radioArray[radioId] == 1) {
+
+                $(this).prop('checked', false);
+                radioArray[radioId] = 0; // changing the value of given key of array
+            }
+            else {
+                $(this).prop('checked', true);
+                radioArray[radioId] = 1; // changing the value of given key of array
+            }
+        });
+
+        $("#rbnStatusLocked").click(function () {
+            radioId = $(this).attr('id');
+            if (radioArray[radioId] == 1) {
+
+                $(this).prop('checked', false);
+                radioArray[radioId] = 0; // changing the value of given key of array
+            }
+            else {
+                $(this).prop('checked', true);
+                radioArray[radioId] = 1; // changing the value of given key of array
+            }
+        });
+
+
+// End CheckBox Region
+
+        //Alert Region
+        function showAlert(msg) {
+            $("#myAlert").show('fade');
+            $("#AlertMsg").text(msg);
+            $("#myAlert").css("display", "block");
+            setTimeout(function () {
+                $("#myAlert").hide('fade');
+            }, 3000);
+            return false;
+        }
+
+        function ShowModalAlert(msg) {
+            $("#ModalAlert").show('fade');
+            $("#ModalMsg").text(msg);
+            $("#ModalAlert").css("display", "block");
+            setTimeout(function () {
+                $("#ModalAlert").hide('fade');
+            }, 3000);
+            return false;
+        }
+
+        //End Alert Region
+
+
+
+        function LoadMarkupPlan() {
+
+            $.ajax({
+                url: '/MarkupPlan/LoadPlan',
+                method: 'Get',
+                dataType: 'json',
+                success: function (data) {
+                    $("#txtMarkupPlan").empty().append('<option>Please Select Your Markup Plan</option>');
+                    for (var i = 0; i < data.length; i++) {
+                        $("#txtMarkupPlanId").append("<option value=" + data[i].Id + ">" + data[i].Name + "</option>");
+                        $("#txtMarkupPlan").append("<option value=" + data[i].Id + ">" + data[i].Name + "</option>");
+                    }
+                }
+            });
+
+
+        }
+
+        function LoadAgentList() {
+
+            $.ajax({
+                url: '/Agent/LoadAgentList',
+                method: 'Get',
+                dataType: 'json',
+                success: function (data) {
+                    $("#AgentList").dataTable({
+                       paging: true,
+                        sort: true,
+                        destroy: true,
+                        searching: true,
+                        data: data,
+                        columns: [
+                               {
+                                'data': 'CreatedOnUtc',
+                                'render': function (CreatedOnUtc) {
+                                    var date = new Date(parseInt(CreatedOnUtc.substr(6)));
+                                    var month = date.getMonth() + 1;
+                                    return month + "/" + date.getDate() + "/" + date.getFullYear();
+                                }
+                            },
+                            { 'data': 'Code' },
+                            { 'data': 'Name' },
+                            { 'data': 'MarkupPlanName' },
+                            { 'data': 'Mobile' },
+                            { 'data': 'Email' },
+                            {
+                                'data': 'CurrentBalance',
+                                'render': function (currentBalance) {
+                                    return "৳" + currentBalance;
+                                }
+                            },
+                            {
+                                "mData": null,
+                                "bSortable": false,
+                                "mRender": function (data, type, full) {
+                                    return '' +
+
+                                        "<a class='text-info pr-2' id='add' href='#' onclick='getAgentInformation(" + data['BusinessId'] + ")'><i class='fa fa-edit'></i></a>" +
+
+                                        "<a class='text-info pr-2' data-toggle='modal' data-target='#modalPopup' href='#' onclick='Delete(" + data['BusinessId'] + ")'><i class='fa fa-trash'></i></a>";
+                                }
+                            }
+                        ]
+                    });
+                }
+            });
+
+
+        }
+
+
+
+
+    $("#btnSave").click(function () {
+        
+            var Id, AgentName, MarkupPlan, Email, Mobile, Phone, Address, City, State, Country, ZipOrPostalCode, Logo, businessId, ContactPerson, ReferredBy, Balance;
+            var vRegent, vNovo, vGalileo, vUSBS, vIndigo, vAgentType, vStatus,vsmtpserver,vsmtpport,vsmtpuser,vsmtppassword;
+            if ($("#chkRegent").is(":checked")) {
+                vRegent = $("#chkRegent").val();
+            }
+            else {
+                vRegent = "";
+            }
+
+            if ($("#chkNovo").is(":checked")) {
+                vNovo = $("#chkNovo").val();
+            }
+            else {
+                vNovo = "";
+            }
+
+            if ($("#chkGalileo").is(":checked")) {
+                vGalileo = $("#chkGalileo").val();
+            }
+            else {
+                vGalileo = "";
+            }
+
+            if ($("#chkUsbs").is(":checked")) {
+                vUSBS = $("#chkUsbs").val();
+            }
+            else {
+                vUSBS = "";
+            }
+
+            if ($("#chkIndigo").is(":checked")) {
+                vIndigo = $("#chkIndigo").val();
+            }
+            else {
+                vIndigo = "";
+            }
+            if ($("#rbnAgentB2B").is(":checked")) {
+                vAgentType = $("#rbnAgentB2B").val();
+            }
+
+            else if ($("#rbnAgentB2C").is(":checked")) {
+                vAgentType = $("#rbnAgentB2C").val();
+            }
+            else {
+                vAgentType = "";
+            }
+
+
+            if ($("#rbnStatusNew").is(":checked")) {
+                vStatus = $("#rbnStatusNew").val();
+                
+            }
+
+            else if ($("#rbnStatusActive").is(":checked")) {
+                vStatus = $("#rbnStatusActive").val();
+
+            }
+
+
+            else if ($("#rbnStatusINActive").is(":checked")) {
+                vStatus = $("#rbnStatusINActive").val();
+            }
+
+           else if ($("#rbnStatusLocked").is(":checked")) {
+                vStatus = $("#rbnStatusLocked").val();
+            }
+            else {
+                vStatus = "";
+            }
+            businessId = $("#txtBusinessId").val();
+            alert(businessId);
+            Logo = $("#txtImagePath").val();
+            Id = $("#txtId").val();
+            AgentName = $("#txtAgentName").val();
+            MarkupPlan = $("#txtMarkupPlan").val();
+            Email = $("#txtEmail").val();
+            Mobile = $("#txtMobile").val();
+            Phone = $("#txtPhone").val();
+            Address = $("#txtAddress").val();
+            City = $("#txtCity").val();
+            State = $("#txtState").val();
+            Country = $("#txtCountry").val();
+            ZipOrPostalCode = $("#txtPostalCode").val();
+            ContactPerson = $("#txtContactPerson").val();
+            ReferredBy = $("#txtReferredBy").val();
+            Balance = $("#txtBalance").val();
+            vsmtpserver = $("#txtsmtpServer").val();
+            vsmtpport = $("#txtSMTPPort").val();
+            vsmtpuser = $("#txtSMTPUsername").val();
+            vsmtppassword = $("#txtSMTPPassword").val();
+
+            if (AgentName == "") {
+
+                var msg = "Please Enter Name";
+                $("#ValidateAgentName").text(msg);
+                $("#ValidateAgentName").css("display", "block");
+                return false;
+            }
+
+            if (Id == "") {
+
+                var msg = "Please Enter Id";
+                $("#ValidateId").text(msg);
+                $("#ValidateId").css("display", "block");
+                return false;
+            }
+
+            var file = $("#imageBrowes").get(0).files;
+            var data = new FormData;
+            data.append("ImageFile", file[0]);
+
+            data.append("BusinessId", businessId);
+            data.append("LogoImagePath", Logo);
+
+            data.append("Code", Id);
+            data.append("Name", AgentName);
+            data.append("Email", Email);
+            data.append("MarkupPlanId", MarkupPlan);
+            data.append("Mobile", Mobile);
+            data.append("Phone", Phone);
+            data.append("Address", Address);
+            data.append("City", City);
+            data.append("Zip", ZipOrPostalCode);
+            data.append("State", State);
+            data.append("Country", Country);
+            data.append("ContactPerson", ContactPerson);
+            data.append("ReferredBy", ReferredBy);
+            data.append("Balance", Balance);
+            data.append("Status", vStatus);
+
+            data.append("RegentAPI", vRegent);
+            data.append("NovoAPI", vNovo);
+            data.append("GalileoAPI", vGalileo);
+            data.append("USBSAPI", vUSBS);
+            data.append("IndigoAPI", vIndigo);
+            data.append("AgentType", vAgentType);
+
+            data.append("SMTPServer", vsmtpserver);
+            data.append("SMTPPort", vsmtpport)
+            data.append("SMTPUsername", vsmtpuser)
+            data.append("SMTPPassword", vsmtppassword)
+
+        
+
+
+            console.log(data);
+            $.ajax({
+                type: "Post",
+                url: "/Agent/Create",
+                data: data,
+                contentType: false,
+                processData: false,
+
+                success: function (data) {
+                    if (data == "Successfully Saved" || data == "Successfully Updated") {
+
+                        $('#largesizemodal').modal('hide');
+                        ClearData();
+                        LoadAgentList();
+                        showAlert(data);
+            }
+                    else if (data == "Update Failed"){
+                       
+                        LoadAgentList();
+                        showAlert(data);
+
+                    }
+
+                    else {
+                        LoadAgentList();
+                        ShowModalAlert(data.success);
+
+                    }
+
+
+
+                },
+                error: function () {
+
+                }
+
+            });
+
+
+
+
+        });
+
+
+        var ReadImage = function (file) {
+
+            var reader = new FileReader;
+            var image = new Image;
+
+            reader.readAsDataURL(file);
+            reader.onload = function (_file) {
+
+                image.src = _file.target.result;
+                image.onload = function () {
+
+                    //var height = 200+"px";
+                    //var width = 180+"px";
+                    //var type = file.type;
+                    //var size = ~~(file.size / 1024) + "KB";
+
+                    $("#targetImg").attr('src', _file.target.result);
+                    //$("#imgPreview").text("Size:" + size + ", " + height + "X " + width + ", " + type + "");
+                    $("#imgPreview").show();
+
+                }
+
+            }
+
+        }
+
+        var ClearPreview = function () {
+            $("#imageBrowes").val('');
+            $("#description").text('');
+            $("#imgPreview").hide();
+
+        }
+
+
+
+
+    function getAgentInformation(id) {
+       
+         var data = {
+                    BusinessId: id
+                 }
+
+           
+                $.ajax({
+                 url: "/Agent/GetAgentList",
+                    //url: "/MarkupPlan/Create",
+                    type: "POST",
+                    contentType: "application/json;charset=utf-8",
+                    dataType: "json",
+                    data: JSON.stringify(data),
+                    success: function (dat) {
+
+                        var i = 0;
+                        console.log(dat);
+                        $("#txtMarkupPlan").empty();
+                        
+                        $("#targetImg").attr("src", dat.LogoImagePath);
+                        $("#txtBusinessId").val(id);
+                        $("#txtImagePath").val(dat.LogoImagePath);
+                        $("#txtId").val(dat.Code);
+                        $("#txtAgentName").val(dat.Name);
+                      
+                        $("#txtMarkupPlan").append("<option value=" + dat.MarkupPlanId + ">" + dat.MarkupPlanName + "</option>");
+                        $("#txtMarkupPlan").click(function () {
+
+                            if (i == 0) {
+                                LoadMarkupPlan();
+                                i=i+1;
+                            }
+                        });
+                       
+
+
+                        $("#txtEmail").val(dat.Email);
+                        $("#txtMobile").val(dat.Mobile);
+                        $("#txtPhone").val(dat.Phone);
+                        $("#txtAddress").val(dat.Address);
+                        $("#txtCity").val(dat.City);
+                        $("#txtState").val(dat.State);
+                        $("#txtCountry").val(dat.Country);
+                        $("#txtPostalCode").val(dat.Zip );
+                        $("#txtContactPerson").val(dat.ContactPerson);
+                        $("#txtReferredBy").val(dat.ReferredBy);
+                        $("#txtBalance").val(dat.CurrentBalance);
+                       
+
+                        if (dat.Status != null) {
+                            if (dat.Status == "NEW") {
+                                $("#rbnStatusNew").prop('checked', true);
+                                $("#rbnStatusNew").val(dat.Status);
+                            }
+                            else if (dat.Status == "ACTIVE") {
+                                $("#rbnStatusActive").prop('checked', true);
+                                $("#rbnStatusActive").val(dat.Status);
+
+                            }
+                            else if (dat.Status == "INACTIVE") {
+                                $("#rbnStatusINActive").prop('checked', true);
+                                $("#rbnStatusINActive").val(dat.Status);
+
+                            }
+                            else if (dat.Status == "LOCKED") {
+
+                                $("#rbnStatusLocked").prop('checked', true);
+                                $("#rbnStatusLocked").val(dat.Status);
+                            }
+                            else {
+                            }
+                        }
+
+                        if (dat.AgentType != null) {
+
+                            if (dat.AgentType  == "B2B") {
+                                $("#rbnAgentB2B").prop('checked', true);
+                                $("#rbnAgentB2B").val(dat.AgentType);
+                            }
+                            else if (dat.AgentType  == "B2C") {
+                                $("#rbnAgentB2C").prop('checked', true);
+                                $("#rbnAgentB2C").val(dat.AgentType);
+
+                            }
+                            else { }
+
+                        }
+
+                        if (dat.RegentAPI == "REGENT") {
+                            $("#chkRegent").prop('checked', true);
+                            $("#chkRegent").val(dat.RegentAPI);
+                         }
+
+                        if (dat.NovoAPI  == "NOVO") {
+                            $("#chkNovo").prop('checked', true);
+                            $("#chkNovo").val(dat.NovoAPI);
+                        }
+                        if (dat.GalileoAPI  == "GALILEO") {
+
+                            $("#chkGalileo").prop('checked', true);
+                            $("#chkGalileo").val(dat.GalileoAPI );
+                        }
+                        if (dat.USBSAPI  == "USB-S") {
+
+                            $("#chkUsbs").prop('checked', true);
+                            $("#chkUsbs").val(dat.USBSAPI );
+                        }
+                        if (dat.IndigoAPI  == "INDIGO") {
+                            $("#chkIndigo").prop('checked', true);
+                            $("#chkIndigo").val(dat.IndigoAPI );
+
+                        }
+                        $("#largesizemodal").modal("toggle");
+                     
+
+                       
+
+
+                     },
+                    error: function () {
+
+                    }
+
+                });
+
+        }
+
+
+    function Delete(id) {
+
+        if (id != "") {
+            var data = {
+                BusinessId: id
+            }
+            $("#infomodal").modal("toggle");
+            $(".modal-body").html("<h4>Are You Sure Want to Delete This?</h4>");
+            console.log(id);
+            $("#btnyes").click(function () {
+
+                $.ajax({
+                    url: "/Agent/Delete",
+                    type: "Post",
+                    contentType: "application/json;charset=utf-8",
+                    dataType: "json",
+                    data: JSON.stringify(data),
+
+                    success: function (dat) {
+
+                        LoadAgentList();
+                        showAlert(dat.success);
+
+                    },
+                    error: function () {
+
+                    }
+
+                });
+
+            })
+            $("#btnno").click(function () {
+                $("#infomodal").modal("dismiss");
+
+            })
+        }
+
+
+
+    }
+
+
+
+   
+        
+        //Apply Custom search on jQuery DataTables here
+    $("#btnSearch").click(function () {
+        
+       
+        var vCode = $("#txtCodeNumber").val();
+        var vName = $("#txtName").val();
+        
+        var vMarkupPlanId = $("#txtMarkupPlanId").val();
+      
+        $.ajax({
+            url: "/Agent/SearchAgentList?code=" + vCode + "&name=" + vName + "&markupplanid=" + vMarkupPlanId,
+            type: 'Get',
+            dataType: 'json',
+            contentType: "application/json;charset=utf-8",
+            success: function (data) {
+                console.log(data);
+                $("#AgentList").dataTable({
+                 
+                    paging: true,
+                    sort: true,
+                    destroy: true,
+                    searching: true,
+                    data: data,
+                    columns: [
+                        {
+                            'data': 'CreatedOnUtc',
+                            'render': function (CreatedOnUtc) {
+                                var date = new Date(parseInt(CreatedOnUtc.substr(6)));
+                                var month = date.getMonth() + 1;
+                                return month + "/" + date.getDate() + "/" + date.getFullYear();
+                            }
+                        },
+                        { 'data': 'Code' },
+                        { 'data': 'Name' },
+                        { 'data': 'MarkupPlanName' },
+                        { 'data': 'Mobile' },
+                        { 'data': 'Email' },
+                        {
+                            'data': 'CurrentBalance',
+                            'render': function (currentBalance) {
+                                return "৳" + currentBalance;
+                            }
+                        },
+                        {
+                            "mData": null,
+                            "bSortable": false,
+                            "mRender": function (data, type, full) {
+                                return '' +
+
+                                    "<a class='text-info pr-2' id='add' href='#' onclick='getAgentInformation(" + data['BusinessId'] + ")'><i class='fa fa-edit'></i></a>" +
+
+                                    "<a class='text-info pr-2' data-toggle='modal' data-target='#modalPopup' href='#' onclick='Delete(" + data['BusinessId'] + ")'><i class='fa fa-trash'></i></a>";
+                            }
+                        }
+                    ]
+                });
+                
+            }
+        });
+    }); 
+
+
+
+
+        function ClearData() {
+            LoadMarkupPlan();
+            ClearPreview();
+            $("#chkRegent").prop('checked', false);
+            $("#chkNovo").prop('checked', false);
+            $("#chkGalileo").prop('checked', false);
+            $("#chkUsbs").prop('checked', false);
+            $("#chkIndigo").prop('checked', false);
+            $("#rbnAgentB2B").prop('checked', false);
+            $("#rbnAgentB2C").prop('checked', false);
+            $("#rbnStatusNew").prop('checked', false);
+            $("#rbnStatusActive").prop('checked', false);
+            $("#rbnStatusINActive").prop('checked', false);
+            $("#rbnStatusLocked").prop('checked', false);
+            $("#txtId").val("");
+            $("#txtAgentName").val("");
+
+            $("#txtEmail").val("");
+            $("#txtMobile").val("");
+            $("#txtPhone").val("");
+            $("#txtAddress").val("");
+            $("#txtCity").val("");
+            $("#txtState").val("");
+            $("#txtCountry").val("");
+            $("#txtPostalCode").val("");
+            $("#txtContactPerson").val("");
+            $("#txtReferredBy").val("");
+            $("#txtBalance").val("");
+            $("#txtsmtpServer").val("");
+           $("#txtSMTPPort").val("");
+           $("#txtSMTPUsername").val("");
+            $("#txtSMTPPassword").val("");
+        }
+
+
+
+
+
+        $("#btnModal").click(function () {
+            ClearData();
+            $("#largesizemodal").modal("toggle");
+
+    })
+
+    $("#btnCancel").click(function () {
+        ClearData();
+        $("#largesizemodal").modal("hide");
+
+    })
+
+    $("#txtCodeNumber").keyup(function () {
+
+        var code = $("#txtCodeNumber").val();
+        var name = $("#txtName").val();
+       
+
+
+        if (code = "" && name == "") {
+            LoadAgentList();
+
+        }
+
+    });
+
+
+    $("#txtName").keyup(function () {
+
+     var code = $("#txtCodeNumber").val();
+        var name = $("#txtName").val();
+        var MarkupPlanId = $("#txtMarkupPlanId").val();
+
+
+        if (code = "" && name == "") {
+            LoadAgentList();
+
+        }
+
+    });
+
+    $("#txtMarkupPlanId").change(function () {
+
+        var code = $("#txtCodeNumber").val();
+        var name = $("#txtName").val();
+        var MarkupPlanId = $("#txtMarkupPlanId").val();
+
+
+        if (code = "" && name == "" && MarkupPlanId==0) {
+            LoadAgentList();
+
+        }
+
+    });
+    
+   
+
+
+</script>
+
+
+
+
+}

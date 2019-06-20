@@ -1,0 +1,88 @@
+H:\Assignment\Core\bin\Debug\Core.dll
+H:\Assignment\Core\bin\Debug\Core.pdb
+H:\Assignment\Core\obj\Debug\Core.dll
+H:\Assignment\Core\obj\Debug\Core.pdb
+C:\Users\User\Desktop\assignment\Core\bin\Debug\Core.dll.config
+C:\Users\User\Desktop\assignment\Core\bin\Debug\Core.dll
+C:\Users\User\Desktop\assignment\Core\bin\Debug\Core.pdb
+C:\Users\User\Desktop\assignment\Core\bin\Debug\Domain.dll
+C:\Users\User\Desktop\assignment\Core\bin\Debug\EntityFramework.dll
+C:\Users\User\Desktop\assignment\Core\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\User\Desktop\assignment\Core\bin\Debug\Domain.pdb
+C:\Users\User\Desktop\assignment\Core\bin\Debug\Domain.dll.config
+C:\Users\User\Desktop\assignment\Core\bin\Debug\EntityFramework.xml
+C:\Users\User\Desktop\assignment\Core\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\User\Desktop\assignment\Core\obj\Debug\Core.csprojAssemblyReference.cache
+C:\Users\User\Desktop\assignment\Core\obj\Debug\Core.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\assignment\Core\obj\Debug\Core.csproj.CopyComplete
+C:\Users\User\Desktop\assignment\Core\obj\Debug\Core.dll
+C:\Users\User\Desktop\assignment\Core\obj\Debug\Core.pdb
+C:\Users\netsh\Desktop\18.06.2019 Update\assignment\Core\bin\Debug\Core.dll.config
+C:\Users\netsh\Desktop\18.06.2019 Update\assignment\Core\bin\Debug\Core.dll
+C:\Users\netsh\Desktop\18.06.2019 Update\assignment\Core\bin\Debug\Core.pdb
+C:\Users\netsh\Desktop\18.06.2019 Update\assignment\Core\bin\Debug\Domain.dll
+C:\Users\netsh\Desktop\18.06.2019 Update\assignment\Core\bin\Debug\EntityFramework.dll
+C:\Users\netsh\Desktop\18.06.2019 Update\assignment\Core\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\netsh\Desktop\18.06.2019 Update\assignment\Core\bin\Debug\Domain.pdb
+C:\Users\netsh\Desktop\18.06.2019 Update\assignment\Core\bin\Debug\Domain.dll.config
+C:\Users\netsh\Desktop\18.06.2019 Update\assignment\Core\bin\Debug\EntityFramework.xml
+C:\Users\netsh\Desktop\18.06.2019 Update\assignment\Core\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\netsh\Desktop\18.06.2019 Update\assignment\Core\obj\Debug\Core.csprojResolveAssemblyReference.cache
+C:\Users\netsh\Desktop\18.06.2019 Update\assignment\Core\obj\Debug\Core.dll
+C:\Users\netsh\Desktop\18.06.2019 Update\assignment\Core\obj\Debug\Core.pdb
+C:\Users\User\Desktop\19.06.2019\assignment\Core\bin\Debug\Core.dll.config
+C:\Users\User\Desktop\19.06.2019\assignment\Core\bin\Debug\Core.dll
+C:\Users\User\Desktop\19.06.2019\assignment\Core\bin\Debug\Core.pdb
+C:\Users\User\Desktop\19.06.2019\assignment\Core\bin\Debug\Domain.dll
+C:\Users\User\Desktop\19.06.2019\assignment\Core\bin\Debug\EntityFramework.dll
+C:\Users\User\Desktop\19.06.2019\assignment\Core\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\User\Desktop\19.06.2019\assignment\Core\bin\Debug\Domain.pdb
+C:\Users\User\Desktop\19.06.2019\assignment\Core\bin\Debug\Domain.dll.config
+C:\Users\User\Desktop\19.06.2019\assignment\Core\bin\Debug\EntityFramework.xml
+C:\Users\User\Desktop\19.06.2019\assignment\Core\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\User\Desktop\19.06.2019\assignment\Core\obj\Debug\Core.csprojAssemblyReference.cache
+C:\Users\User\Desktop\19.06.2019\assignment\Core\obj\Debug\Core.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\19.06.2019\assignment\Core\obj\Debug\Core.csproj.CopyComplete
+C:\Users\User\Desktop\19.06.2019\assignment\Core\obj\Debug\Core.dll
+C:\Users\User\Desktop\19.06.2019\assignment\Core\obj\Debug\Core.pdb
+C:\Users\netsh\Desktop\New folder\19.06.2019\assignment\Core\bin\Debug\Core.dll.config
+C:\Users\netsh\Desktop\New folder\19.06.2019\assignment\Core\bin\Debug\Core.dll
+C:\Users\netsh\Desktop\New folder\19.06.2019\assignment\Core\bin\Debug\Core.pdb
+C:\Users\netsh\Desktop\New folder\19.06.2019\assignment\Core\bin\Debug\Domain.dll
+C:\Users\netsh\Desktop\New folder\19.06.2019\assignment\Core\bin\Debug\EntityFramework.dll
+C:\Users\netsh\Desktop\New folder\19.06.2019\assignment\Core\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\netsh\Desktop\New folder\19.06.2019\assignment\Core\bin\Debug\Domain.pdb
+C:\Users\netsh\Desktop\New folder\19.06.2019\assignment\Core\bin\Debug\Domain.dll.config
+C:\Users\netsh\Desktop\New folder\19.06.2019\assignment\Core\bin\Debug\EntityFramework.xml
+C:\Users\netsh\Desktop\New folder\19.06.2019\assignment\Core\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\netsh\Desktop\New folder\19.06.2019\assignment\Core\obj\Debug\Core.csprojResolveAssemblyReference.cache
+C:\Users\netsh\Desktop\New folder\19.06.2019\assignment\Core\obj\Debug\Core.dll
+C:\Users\netsh\Desktop\New folder\19.06.2019\assignment\Core\obj\Debug\Core.pdb
+C:\Users\User\Desktop\20\19.06.2019\assignment\Core\bin\Debug\Core.dll.config
+C:\Users\User\Desktop\20\19.06.2019\assignment\Core\bin\Debug\Core.dll
+C:\Users\User\Desktop\20\19.06.2019\assignment\Core\bin\Debug\Core.pdb
+C:\Users\User\Desktop\20\19.06.2019\assignment\Core\bin\Debug\Domain.dll
+C:\Users\User\Desktop\20\19.06.2019\assignment\Core\bin\Debug\EntityFramework.dll
+C:\Users\User\Desktop\20\19.06.2019\assignment\Core\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\User\Desktop\20\19.06.2019\assignment\Core\bin\Debug\Domain.pdb
+C:\Users\User\Desktop\20\19.06.2019\assignment\Core\bin\Debug\Domain.dll.config
+C:\Users\User\Desktop\20\19.06.2019\assignment\Core\bin\Debug\EntityFramework.xml
+C:\Users\User\Desktop\20\19.06.2019\assignment\Core\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\User\Desktop\20\19.06.2019\assignment\Core\obj\Debug\Core.csprojAssemblyReference.cache
+C:\Users\User\Desktop\20\19.06.2019\assignment\Core\obj\Debug\Core.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\20\19.06.2019\assignment\Core\obj\Debug\Core.csproj.CopyComplete
+C:\Users\User\Desktop\20\19.06.2019\assignment\Core\obj\Debug\Core.dll
+C:\Users\User\Desktop\20\19.06.2019\assignment\Core\obj\Debug\Core.pdb
+C:\Users\netsh\Desktop\20 Update\19.06.2019\assignment\Core\bin\Debug\Core.dll.config
+C:\Users\netsh\Desktop\20 Update\19.06.2019\assignment\Core\bin\Debug\Core.dll
+C:\Users\netsh\Desktop\20 Update\19.06.2019\assignment\Core\bin\Debug\Core.pdb
+C:\Users\netsh\Desktop\20 Update\19.06.2019\assignment\Core\bin\Debug\Domain.dll
+C:\Users\netsh\Desktop\20 Update\19.06.2019\assignment\Core\bin\Debug\EntityFramework.dll
+C:\Users\netsh\Desktop\20 Update\19.06.2019\assignment\Core\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\netsh\Desktop\20 Update\19.06.2019\assignment\Core\bin\Debug\Domain.pdb
+C:\Users\netsh\Desktop\20 Update\19.06.2019\assignment\Core\bin\Debug\Domain.dll.config
+C:\Users\netsh\Desktop\20 Update\19.06.2019\assignment\Core\bin\Debug\EntityFramework.xml
+C:\Users\netsh\Desktop\20 Update\19.06.2019\assignment\Core\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\netsh\Desktop\20 Update\19.06.2019\assignment\Core\obj\Debug\Core.csprojResolveAssemblyReference.cache
+C:\Users\netsh\Desktop\20 Update\19.06.2019\assignment\Core\obj\Debug\Core.dll
+C:\Users\netsh\Desktop\20 Update\19.06.2019\assignment\Core\obj\Debug\Core.pdb
